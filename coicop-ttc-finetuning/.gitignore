@@ -1,0 +1,6 @@
+.venv/
+abstract.docx
+abstract.html
+abstract_files/
+__pycache__/
+reference.docx

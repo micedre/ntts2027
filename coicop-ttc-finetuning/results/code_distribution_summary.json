@@ -1,0 +1,160 @@
+{
+  "raw_ddc": {
+    "n_codes": 107,
+    "rows": 3471004,
+    "median_per_code": 10994.0,
+    "max_per_code": 341426,
+    "top10_share": 0.4862,
+    "food_share": 0.2545,
+    "codes_lt_100": 2,
+    "codes_lt_1000": 16,
+    "codes_among_pruned_leaves": 88,
+    "technical_codes": 0,
+    "distinct_descriptions": 2235428
+  },
+  "corpus_ddc": {
+    "n_codes": 107,
+    "rows": 1521554,
+    "median_per_code": 5547.0,
+    "max_per_code": 168752,
+    "top10_share": 0.4827,
+    "food_share": 0.2428,
+    "codes_lt_100": 5,
+    "codes_lt_1000": 24,
+    "codes_among_pruned_leaves": 88,
+    "technical_codes": 0
+  },
+  "corpus_synthetic": {
+    "n_codes": 314,
+    "rows": 74277,
+    "median_per_code": 267.0,
+    "max_per_code": 300,
+    "top10_share": 0.0404,
+    "food_share": 0.2124,
+    "codes_lt_100": 25,
+    "codes_lt_1000": 314,
+    "codes_among_pruned_leaves": 224,
+    "technical_codes": 16
+  },
+  "corpus_all": {
+    "n_codes": 316,
+    "rows": 1595831,
+    "median_per_code": 292.0,
+    "max_per_code": 169038,
+    "top10_share": 0.4617,
+    "food_share": 0.2414,
+    "codes_lt_100": 18,
+    "codes_lt_1000": 229,
+    "codes_among_pruned_leaves": 224,
+    "technical_codes": 16
+  },
+  "annotated": {
+    "n_codes": 349,
+    "rows": 107886,
+    "median_per_code": 37.0,
+    "max_per_code": 9109,
+    "top10_share": 0.427,
+    "food_share": 0.6271,
+    "codes_lt_100": 230,
+    "codes_lt_1000": 323,
+    "codes_among_pruned_leaves": 211,
+    "technical_codes": 17
+  },
+  "corpus_coverage": {
+    "ddc_only": {
+      "codes": 2,
+      "rows": 70027
+    },
+    "synthetic_only": {
+      "codes": 209,
+      "rows": 49424
+    },
+    "both": {
+      "codes": 105,
+      "rows": 1476380
+    }
+  },
+  "pruned_leaves": 298,
+  "pruned_leaves_without_scanner_data": 210,
+  "annotated_outside_corpus_label_space": {
+    "codes": 70,
+    "rows": 884
+  },
+  "division_share_pct": {
+    "01": {
+      "raw_ddc": 25.5,
+      "corpus_all": 24.1,
+      "annotated": 62.7
+    },
+    "02": {
+      "raw_ddc": 3.2,
+      "corpus_all": 3.7,
+      "annotated": 2.3
+    },
+    "03": {
+      "raw_ddc": 22.7,
+      "corpus_all": 16.9,
+      "annotated": 3.8
+    },
+    "04": {
+      "raw_ddc": 2.5,
+      "corpus_all": 2.4,
+      "annotated": 1.5
+    },
+    "05": {
+      "raw_ddc": 10.5,
+      "corpus_all": 11.1,
+      "annotated": 9.5
+    },
+    "06": {
+      "raw_ddc": 0.8,
+      "corpus_all": 1.0,
+      "annotated": 1.3
+    },
+    "07": {
+      "raw_ddc": 0.3,
+      "corpus_all": 0.8,
+      "annotated": 1.8
+    },
+    "08": {
+      "raw_ddc": 1.3,
+      "corpus_all": 1.7,
+      "annotated": 0.8
+    },
+    "09": {
+      "raw_ddc": 27.4,
+      "corpus_all": 31.0,
+      "annotated": 7.1
+    },
+    "10": {
+      "raw_ddc": 0.0,
+      "corpus_all": 0.1,
+      "annotated": 0.1
+    },
+    "11": {
+      "raw_ddc": 0.0,
+      "corpus_all": 0.1,
+      "annotated": 2.1
+    },
+    "12": {
+      "raw_ddc": 0.0,
+      "corpus_all": 0.2,
+      "annotated": 0.3
+    },
+    "13": {
+      "raw_ddc": 6.0,
+      "corpus_all": 6.7,
+      "annotated": 6.0
+    },
+    "98": {
+      "raw_ddc": 0.0,
+      "corpus_all": 0.1,
+      "annotated": 0.5
+    },
+    "99": {
+      "raw_ddc": 0.0,
+      "corpus_all": 0.1,
+      "annotated": 0.3
+    }
+  }
+}

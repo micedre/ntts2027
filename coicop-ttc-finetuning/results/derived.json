@@ -1,0 +1,76 @@
+{
+  "flat_pretrained": {
+    "n_eval_rows": 7161,
+    "n_distinct_true_codes": 431,
+    "truth_depth_distribution": {
+      "1": 36,
+      "2": 456,
+      "3": 460,
+      "4": 2604,
+      "5": 3605
+    },
+    "share_technical_codes_98_99": 0.0686,
+    "n_codes_emitted_in_top5": 304,
+    "n_distinct_true_level4_codes": 230,
+    "share_level4_rows_with_reachable_code": 0.9987,
+    "per_level": {
+      "1": {
+        "N": 7161,
+        "top1": 0.5889,
+        "top5": 0.8004
+      },
+      "2": {
+        "N": 7125,
+        "top1": 0.5359,
+        "top5": 0.736
+      },
+      "3": {
+        "N": 6524,
+        "top1": 0.4749,
+        "top5": 0.6775
+      },
+      "4": {
+        "N": 6084,
+        "top1": 0.4379,
+        "top5": 0.6239
+      }
+    }
+  },
+  "flat_finetuned_prod": {
+    "n_eval_rows": 7161,
+    "n_distinct_true_codes": 431,
+    "truth_depth_distribution": {
+      "1": 36,
+      "2": 456,
+      "3": 460,
+      "4": 2604,
+      "5": 3605
+    },
+    "share_technical_codes_98_99": 0.0686,
+    "n_codes_emitted_in_top5": 278,
+    "n_distinct_true_level4_codes": 230,
+    "share_level4_rows_with_reachable_code": 0.9989,
+    "per_level": {
+      "1": {
+        "N": 7161,
+        "top1": 0.8428,
+        "top5": 0.9398
+      },
+      "2": {
+        "N": 7125,
+        "top1": 0.8247,
+        "top5": 0.9185
+      },
+      "3": {
+        "N": 6628,
+        "top1": 0.7817,
+        "top5": 0.9122
+      },
+      "4": {
+        "N": 6177,
+        "top1": 0.7576,
+        "top5": 0.9166
+      }
+    }
+  }
+}
