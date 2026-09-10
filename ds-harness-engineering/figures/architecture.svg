@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 630" width="1000" height="630"
+     font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5"
+            markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#334155"/>
+    </marker>
+  </defs>
+
+  <rect width="1000" height="630" fill="#ffffff"/>
+
+  <!-- Institutional perimeter -->
+  <rect x="20" y="20" width="960" height="590" rx="12"
+        fill="none" stroke="#64748b" stroke-width="2" stroke-dasharray="9 6"/>
+  <text x="42" y="52" font-size="15" fill="#475569" font-style="italic">
+    Institutional perimeter — context, code and data never leave the platform
+  </text>
+
+  <!-- Platform context (the five layers) -->
+  <rect x="48" y="86" width="392" height="330" rx="8"
+        fill="#f1f5f9" stroke="#475569" stroke-width="1.6"/>
+  <text x="68" y="116" font-size="16" font-weight="bold" fill="#0f172a">
+    Platform context (opencode-onyxia)
+  </text>
+  <line x1="68" y1="128" x2="420" y2="128" stroke="#cbd5e1" stroke-width="1.2"/>
+
+  <text x="68" y="158" font-size="14" fill="#0f172a">1 · Shared context file</text>
+  <text x="68" y="176" font-size="11.5" fill="#64748b">services, injected env vars, conventions</text>
+
+  <text x="68" y="210" font-size="14" fill="#0f172a">2 · Role specialisation</text>
+  <text x="68" y="228" font-size="11.5" fill="#64748b">sub-agents; reviewer on a separate model</text>
+
+  <text x="68" y="262" font-size="14" fill="#0f172a">3 · On-demand skills</text>
+  <text x="68" y="280" font-size="11.5" fill="#64748b">Agent Skills standard, progressive disclosure</text>
+
+  <text x="68" y="314" font-size="14" fill="#0f172a">4 · Commands</text>
+  <text x="68" y="332" font-size="11.5" fill="#64748b">scaffold a project, audit secrets, diagnose</text>
+
+  <text x="68" y="366" font-size="14" fill="#0f172a">5 · Guardrails and model routing</text>
+  <text x="68" y="384" font-size="11.5" fill="#64748b">confirm destructive actions; remote tools off</text>
+
+  <!-- Agent -->
+  <rect x="522" y="186" width="208" height="130" rx="8"
+        fill="#dbeafe" stroke="#1e40af" stroke-width="2"/>
+  <text x="626" y="238" font-size="17" font-weight="bold" fill="#0f172a" text-anchor="middle">
+    OpenCode agent
+  </text>
+  <text x="626" y="262" font-size="12" fill="#475569" text-anchor="middle">plan · build · review</text>
+  <text x="626" y="284" font-size="12" fill="#475569" text-anchor="middle">runs shell, edits files</text>
+
+  <!-- Self-hosted models -->
+  <rect x="792" y="186" width="160" height="130" rx="8"
+        fill="#f8fafc" stroke="#475569" stroke-width="1.6"/>
+  <text x="872" y="234" font-size="14" font-weight="bold" fill="#0f172a" text-anchor="middle">
+    Self-hosted
+  </text>
+  <text x="872" y="254" font-size="14" font-weight="bold" fill="#0f172a" text-anchor="middle">
+    models
+  </text>
+  <text x="872" y="278" font-size="11.5" fill="#64748b" text-anchor="middle">routed by role</text>
+
+  <!-- Arrows -->
+  <line x1="440" y1="251" x2="514" y2="251" stroke="#334155" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="477" y="238" font-size="11.5" fill="#475569" text-anchor="middle">loaded</text>
+  <text x="477" y="272" font-size="11.5" fill="#475569" text-anchor="middle">on demand</text>
+
+  <line x1="730" y1="251" x2="786" y2="251" stroke="#334155" stroke-width="2"
+        marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+
+  <line x1="626" y1="316" x2="626" y2="468" stroke="#334155" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="642" y="366" font-size="11.5" fill="#475569">reads object storage in memory,</text>
+  <text x="642" y="384" font-size="11.5" fill="#475569">logs experiments, submits workflows</text>
+
+  <!-- Platform -->
+  <rect x="48" y="470" width="904" height="118" rx="8"
+        fill="#eef2f7" stroke="#334155" stroke-width="1.6"/>
+  <text x="68" y="500" font-size="16" font-weight="bold" fill="#0f172a">
+    Onyxia / SSP Cloud
+  </text>
+
+  <rect x="68" y="516" width="160" height="46" rx="5" fill="#ffffff" stroke="#94a3b8" stroke-width="1.2"/>
+  <text x="148" y="544" font-size="12.5" fill="#0f172a" text-anchor="middle">MinIO object storage</text>
+
+  <rect x="244" y="516" width="120" height="46" rx="5" fill="#ffffff" stroke="#94a3b8" stroke-width="1.2"/>
+  <text x="304" y="544" font-size="12.5" fill="#0f172a" text-anchor="middle">Vault</text>
+
+  <rect x="380" y="516" width="120" height="46" rx="5" fill="#ffffff" stroke="#94a3b8" stroke-width="1.2"/>
+  <text x="440" y="544" font-size="12.5" fill="#0f172a" text-anchor="middle">MLflow</text>
+
+  <rect x="516" y="516" width="160" height="46" rx="5" fill="#ffffff" stroke="#94a3b8" stroke-width="1.2"/>
+  <text x="596" y="544" font-size="12.5" fill="#0f172a" text-anchor="middle">Argo Workflows</text>
+
+  <rect x="692" y="516" width="240" height="46" rx="5" fill="#ffffff" stroke="#94a3b8" stroke-width="1.2"/>
+  <text x="812" y="544" font-size="12.5" fill="#0f172a" text-anchor="middle">Kubernetes / Helm service catalogue</text>
+</svg>
