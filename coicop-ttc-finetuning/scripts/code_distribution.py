@@ -1,9 +1,9 @@
 """Distribution of ECOICOP level-4 codes in the training data (read-only).
 
 Sources (all on S3, the first two encrypted with the project's parquet key):
-  * raw scanner extraction  data/ddc_raw/annee=*/ *.parquet   (output of extract-ddc)
-  * stage-1 corpus          data/training/ddc-training-dataset-9899.parquet (DDC + synthetic)
-  * annotated survey set    data/output-annotation-consolidated/<latest>/raw_train.parquet
+  * raw scanner extraction  data/ddc_raw/ddc_raw_20260904.parquet          (output of extract-ddc)
+  * stage-1 corpus          data/ddc_raw/ddc_train_20260930-full.parquet   (DDC + synthetic)
+  * annotated survey set    data/workflow_runs/2026-09-30/train-ttc-57c27/build-datasets/annotations_full.parquet
 
 The parquet key is read from the environment variable ``DDC_ENCRYPTION_KEY``
 (same key as the codif-ttc scripts). It is never printed nor written anywhere.
@@ -27,12 +27,9 @@ OUT_CSV = HERE / "results" / "code_distribution.csv"
 OUT_JSON = HERE / "results" / "code_distribution_summary.json"
 
 BUCKET = "s3://projet-budget-famille/data/"
-RAW_DDC = [
-    BUCKET + "ddc_raw/annee=2025/ddc_bdf_1112.parquet",
-    BUCKET + "ddc_raw/annee=2026/ddc_bdf_010203.parquet",
-]
-CORPUS = BUCKET + "training/ddc-training-dataset-9899.parquet"
-ANNOTATED = BUCKET + "output-annotation-consolidated/annotations-consolidated-2026-04-15/raw_train.parquet"
+RAW_DDC = [BUCKET + "ddc_raw/ddc_raw_20260904.parquet"]
+CORPUS = BUCKET + "ddc_raw/ddc_train_20260930-full.parquet"
+ANNOTATED = BUCKET + "workflow_runs/2026-09-30/train-ttc-57c27/build-datasets/annotations_full.parquet"
 PRUNED_NOMENCLATURE = BUCKET + "coicop-2018_envoi_rmes_20251022_prunned_lvl4.parquet"
 
 L4 = "array_to_string(list_slice(string_split({col}, '.'), 1, 4), '.')"
