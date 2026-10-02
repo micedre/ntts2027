@@ -44,12 +44,19 @@ def add_style(styles_xml: str, xml: str) -> str:
 # Normal (12 pt after each paragraph = very tall table rows).
 EXTRA_PARAGRAPH_STYLES = [
     '<w:style w:type="paragraph" w:styleId="FirstParagraph"><w:name w:val="First Paragraph"/>'
-    '<w:basedOn w:val="BodyText"/><w:next w:val="BodyText"/><w:qFormat/></w:style>',
+    '<w:basedOn w:val="Text1"/><w:next w:val="BodyText"/><w:qFormat/></w:style>',
     '<w:style w:type="paragraph" w:styleId="Compact"><w:name w:val="Compact"/>'
-    '<w:basedOn w:val="BodyText"/><w:qFormat/>'
+    '<w:basedOn w:val="Normal"/><w:qFormat/>'
     '<w:pPr><w:spacing w:before="0" w:after="0"/></w:pPr>'
     '<w:rPr><w:sz w:val="20"/><w:szCs w:val="20"/></w:rPr></w:style>',
 ]
+
+# Pandoc writes body text as "Body Text". The template's body style is "Text 1"
+# (Normal + left indent), so Body Text becomes an empty style based on it.
+BODY_TEXT = (
+    '<w:style w:type="paragraph" w:styleId="BodyText"><w:name w:val="Body Text"/>'
+    '<w:basedOn w:val="Text1"/><w:qFormat/></w:style>'
+)
 
 # Bold header row + small cell margins on the cloned Table style.
 TABLE_STYLE_EXTRAS = (
@@ -68,6 +75,7 @@ def main() -> None:
                 xml = clone_style(xml, "TableGrid", "Table", "Table")
                 xml = clone_style(xml, "Caption", "TableCaption", "Table Caption")
                 xml = clone_style(xml, "Caption", "ImageCaption", "Image Caption")
+                xml = re.sub(r'<w:style [^>]*w:styleId="BodyText".*?</w:style>', BODY_TEXT, xml, count=1, flags=re.S)
                 for extra in EXTRA_PARAGRAPH_STYLES:
                     xml = add_style(xml, extra)
                 # enrich the cloned Table style

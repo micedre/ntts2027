@@ -11,3 +11,4 @@ fi
 uv run python scripts/make_figures.py
 quarto render abstract.qmd
 uv run python scripts/fix_docx_tables.py abstract.docx
+uv run python scripts/apply_template_layout.py abstract.docx
