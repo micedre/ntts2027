@@ -1,0 +1,65 @@
+{
+  "checks": {
+    "current (April)": {
+      "L4_top1": 71.75,
+      "L4_top5": 84.5,
+      "expected": [
+        71.75,
+        84.5
+      ],
+      "matches": true
+    },
+    "rfsz6 fine-tuned": {
+      "L4_top1": 72.87,
+      "L4_top5": 85.68,
+      "expected": [
+        72.87,
+        85.68
+      ],
+      "matches": true
+    },
+    "rfsz6 stage 1 only": {
+      "L4_top1": 45.07,
+      "L4_top5": 65.09,
+      "expected": [
+        45.07,
+        65.09
+      ],
+      "matches": true
+    },
+    "4l2qv annotations only": {
+      "L4_top1": 72.26,
+      "L4_top5": 87.45,
+      "expected": [
+        72.26,
+        87.45
+      ],
+      "matches": true
+    }
+  },
+  "disagreement_L4_top1_rfsz6_ft_vs_current": {
+    "carnets_papier": {
+      "both_right": 7487,
+      "only_current": 312,
+      "only_new": 394,
+      "both_wrong": 2538
+    },
+    "tickets_papier": {
+      "both_right": 1312,
+      "only_current": 67,
+      "only_new": 125,
+      "both_wrong": 476
+    },
+    "tickets_appli": {
+      "both_right": 1292,
+      "only_current": 73,
+      "only_new": 98,
+      "both_wrong": 521
+    }
+  },
+  "n_by_channel": {
+    "carnets_papier": 10731,
+    "tickets_papier": 1980,
+    "tickets_appli": 1984
+  }
+}

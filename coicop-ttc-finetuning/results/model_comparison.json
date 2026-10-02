@@ -1,0 +1,20 @@
+{
+  "checks": {
+    "april_vs_logged_top1_agreement": 1.0,
+    "april_vs_logged_top2_5_agreement": 1.0,
+    "september_vs_workflow_top1_agreement": 1.0
+  },
+  "n_test": 14695,
+  "n_texts_changed_by_second_normalisation": 6592,
+  "label_space": {
+    "april_labels": 316,
+    "september_labels": 316,
+    "identical": false
+  },
+  "disagreement_L4_top1": {
+    "both_right": 9720,
+    "only_april": 823,
+    "only_september": 584,
+    "both_wrong": 3568
+  }
+}

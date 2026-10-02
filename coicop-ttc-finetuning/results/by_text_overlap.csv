@@ -1,0 +1,25 @@
+model,source,text,N,L1_top1,L1_top5,L2_top1,L2_top5,L3_top1,L3_top5,L4_top1,L4_top5
+stage1_only,all,text seen in fine-tuning set,7961,64.58,89.34,60.63,86.91,51.85,80.19,46.19,69.93
+stage1_only,tickets_appli,text seen in fine-tuning set,311,77.81,94.53,75.88,93.25,66.88,86.17,61.41,78.46
+stage1_only,tickets_papier,text seen in fine-tuning set,309,72.17,89.64,71.52,88.03,63.43,84.47,56.63,76.38
+stage1_only,carnets_papier,text seen in fine-tuning set,7341,63.7,89.1,59.53,86.6,50.73,79.76,45.1,69.3
+stage1_only,all,new text,6734,63.63,80.81,59.06,75.44,50.12,67.73,43.75,59.37
+stage1_only,tickets_appli,new text,1673,74.72,89.42,72.62,86.55,64.02,79.2,57.26,72.15
+stage1_only,tickets_papier,new text,1671,77.92,90.19,76.42,88.15,66.91,82.65,60.32,74.45
+stage1_only,carnets_papier,new text,3390,51.12,71.95,43.81,63.69,34.99,54.72,28.91,45.63
+annotations_only,all,text seen in fine-tuning set,7961,94.01,98.98,93.22,98.61,89.54,97.46,84.27,95.97
+annotations_only,tickets_appli,text seen in fine-tuning set,311,96.46,97.43,96.14,97.11,91.32,96.78,84.24,94.53
+annotations_only,tickets_papier,text seen in fine-tuning set,309,95.79,98.71,95.47,98.06,91.26,97.73,84.47,96.44
+annotations_only,carnets_papier,text seen in fine-tuning set,7341,93.83,99.06,93.0,98.69,89.39,97.48,84.27,96.01
+annotations_only,all,new text,6734,76.2,89.1,73.77,86.34,65.37,81.38,58.05,77.38
+annotations_only,tickets_appli,new text,1673,80.51,89.9,77.82,87.57,67.9,82.55,61.27,79.26
+annotations_only,tickets_papier,new text,1671,83.12,92.04,81.33,90.6,71.57,84.74,64.75,81.15
+annotations_only,carnets_papier,new text,3390,70.65,87.26,68.05,83.63,61.06,79.14,53.16,74.6
+stage1_stage2,all,text seen in fine-tuning set,7961,94.23,98.67,93.52,98.02,90.5,96.83,82.34,91.75
+stage1_stage2,tickets_appli,text seen in fine-tuning set,311,96.78,98.39,96.14,98.39,91.96,98.07,84.57,96.46
+stage1_stage2,tickets_papier,text seen in fine-tuning set,309,95.79,98.38,95.47,98.06,91.26,97.41,85.76,96.76
+stage1_stage2,carnets_papier,text seen in fine-tuning set,7341,94.06,98.69,93.33,98.0,90.41,96.76,82.1,91.34
+stage1_stage2,all,new text,6734,78.78,90.69,76.6,87.87,68.99,83.81,61.67,78.51
+stage1_stage2,tickets_appli,new text,1673,83.8,92.35,82.13,89.66,74.18,86.31,67.36,83.02
+stage1_stage2,tickets_papier,new text,1671,86.59,94.31,85.22,93.18,76.6,89.95,70.14,86.71
+stage1_stage2,carnets_papier,new text,3390,72.45,88.08,69.62,84.37,62.68,79.56,54.69,72.24

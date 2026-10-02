@@ -1,0 +1,481 @@
+group,N,model,level,metric,accuracy
+all,14695,current (April),1,top1,86.48
+all,14695,current (April),1,top5,94.53
+all,14695,current (April),2,top1,84.89
+all,14695,current (April),2,top5,92.77
+all,14695,current (April),3,top1,79.09
+all,14695,current (April),3,top5,89.85
+all,14695,current (April),4,top1,71.75
+all,14695,current (April),4,top5,84.5
+all,14695,rfsz6 fine-tuned,1,top1,87.15
+all,14695,rfsz6 fine-tuned,1,top5,95.01
+all,14695,rfsz6 fine-tuned,2,top1,85.76
+all,14695,rfsz6 fine-tuned,2,top5,93.37
+all,14695,rfsz6 fine-tuned,3,top1,80.65
+all,14695,rfsz6 fine-tuned,3,top5,90.87
+all,14695,rfsz6 fine-tuned,4,top1,72.87
+all,14695,rfsz6 fine-tuned,4,top5,85.68
+all,14695,rfsz6 stage 1 only,1,top1,64.14
+all,14695,rfsz6 stage 1 only,1,top5,85.43
+all,14695,rfsz6 stage 1 only,2,top1,59.91
+all,14695,rfsz6 stage 1 only,2,top5,81.65
+all,14695,rfsz6 stage 1 only,3,top1,51.06
+all,14695,rfsz6 stage 1 only,3,top5,74.48
+all,14695,rfsz6 stage 1 only,4,top1,45.07
+all,14695,rfsz6 stage 1 only,4,top5,65.09
+all,14695,4l2qv annotations only,1,top1,85.85
+all,14695,4l2qv annotations only,1,top5,94.45
+all,14695,4l2qv annotations only,2,top1,84.31
+all,14695,4l2qv annotations only,2,top5,92.98
+all,14695,4l2qv annotations only,3,top1,78.46
+all,14695,4l2qv annotations only,3,top5,90.09
+all,14695,4l2qv annotations only,4,top1,72.26
+all,14695,4l2qv annotations only,4,top5,87.45
+carnets_papier,10731,current (April),1,top1,86.4
+carnets_papier,10731,current (April),1,top5,94.93
+carnets_papier,10731,current (April),2,top1,84.91
+carnets_papier,10731,current (April),2,top5,93.25
+carnets_papier,10731,current (April),3,top1,80.24
+carnets_papier,10731,current (April),3,top5,90.48
+carnets_papier,10731,current (April),4,top1,72.68
+carnets_papier,10731,current (April),4,top5,84.4
+carnets_papier,10731,rfsz6 fine-tuned,1,top1,87.23
+carnets_papier,10731,rfsz6 fine-tuned,1,top5,95.34
+carnets_papier,10731,rfsz6 fine-tuned,2,top1,85.84
+carnets_papier,10731,rfsz6 fine-tuned,2,top5,93.69
+carnets_papier,10731,rfsz6 fine-tuned,3,top1,81.65
+carnets_papier,10731,rfsz6 fine-tuned,3,top5,91.32
+carnets_papier,10731,rfsz6 fine-tuned,4,top1,73.44
+carnets_papier,10731,rfsz6 fine-tuned,4,top5,85.3
+carnets_papier,10731,rfsz6 stage 1 only,1,top1,59.72
+carnets_papier,10731,rfsz6 stage 1 only,1,top5,83.68
+carnets_papier,10731,rfsz6 stage 1 only,2,top1,54.56
+carnets_papier,10731,rfsz6 stage 1 only,2,top5,79.36
+carnets_papier,10731,rfsz6 stage 1 only,3,top1,45.76
+carnets_papier,10731,rfsz6 stage 1 only,3,top5,71.85
+carnets_papier,10731,rfsz6 stage 1 only,4,top1,39.99
+carnets_papier,10731,rfsz6 stage 1 only,4,top5,61.82
+carnets_papier,10731,4l2qv annotations only,1,top1,86.51
+carnets_papier,10731,4l2qv annotations only,1,top5,95.33
+carnets_papier,10731,4l2qv annotations only,2,top1,85.12
+carnets_papier,10731,4l2qv annotations only,2,top5,93.93
+carnets_papier,10731,4l2qv annotations only,3,top1,80.44
+carnets_papier,10731,4l2qv annotations only,3,top5,91.69
+carnets_papier,10731,4l2qv annotations only,4,top1,74.44
+carnets_papier,10731,4l2qv annotations only,4,top5,89.25
+tickets_papier,1980,current (April),1,top1,87.27
+tickets_papier,1980,current (April),1,top5,93.74
+tickets_papier,1980,current (April),2,top1,85.35
+tickets_papier,1980,current (April),2,top5,91.87
+tickets_papier,1980,current (April),3,top1,76.82
+tickets_papier,1980,current (April),3,top5,88.74
+tickets_papier,1980,current (April),4,top1,69.65
+tickets_papier,1980,current (April),4,top5,85.66
+tickets_papier,1980,rfsz6 fine-tuned,1,top1,88.03
+tickets_papier,1980,rfsz6 fine-tuned,1,top5,94.95
+tickets_papier,1980,rfsz6 fine-tuned,2,top1,86.82
+tickets_papier,1980,rfsz6 fine-tuned,2,top5,93.94
+tickets_papier,1980,rfsz6 fine-tuned,3,top1,78.89
+tickets_papier,1980,rfsz6 fine-tuned,3,top5,91.11
+tickets_papier,1980,rfsz6 fine-tuned,4,top1,72.58
+tickets_papier,1980,rfsz6 fine-tuned,4,top5,88.28
+tickets_papier,1980,rfsz6 stage 1 only,1,top1,77.02
+tickets_papier,1980,rfsz6 stage 1 only,1,top5,90.1
+tickets_papier,1980,rfsz6 stage 1 only,2,top1,75.66
+tickets_papier,1980,rfsz6 stage 1 only,2,top5,88.13
+tickets_papier,1980,rfsz6 stage 1 only,3,top1,66.36
+tickets_papier,1980,rfsz6 stage 1 only,3,top5,82.93
+tickets_papier,1980,rfsz6 stage 1 only,4,top1,59.75
+tickets_papier,1980,rfsz6 stage 1 only,4,top5,74.75
+tickets_papier,1980,4l2qv annotations only,1,top1,85.1
+tickets_papier,1980,4l2qv annotations only,1,top5,93.08
+tickets_papier,1980,4l2qv annotations only,2,top1,83.54
+tickets_papier,1980,4l2qv annotations only,2,top5,91.77
+tickets_papier,1980,4l2qv annotations only,3,top1,74.65
+tickets_papier,1980,4l2qv annotations only,3,top5,86.77
+tickets_papier,1980,4l2qv annotations only,4,top1,67.83
+tickets_papier,1980,4l2qv annotations only,4,top5,83.54
+tickets_appli,1984,current (April),1,top1,86.09
+tickets_appli,1984,current (April),1,top5,93.15
+tickets_appli,1984,current (April),2,top1,84.32
+tickets_appli,1984,current (April),2,top5,91.08
+tickets_appli,1984,current (April),3,top1,75.1
+tickets_appli,1984,current (April),3,top5,87.6
+tickets_appli,1984,current (April),4,top1,68.8
+tickets_appli,1984,current (April),4,top5,83.92
+tickets_appli,1984,rfsz6 fine-tuned,1,top1,85.84
+tickets_appli,1984,rfsz6 fine-tuned,1,top5,93.3
+tickets_appli,1984,rfsz6 fine-tuned,2,top1,84.32
+tickets_appli,1984,rfsz6 fine-tuned,2,top5,91.03
+tickets_appli,1984,rfsz6 fine-tuned,3,top1,76.97
+tickets_appli,1984,rfsz6 fine-tuned,3,top5,88.16
+tickets_appli,1984,rfsz6 fine-tuned,4,top1,70.06
+tickets_appli,1984,rfsz6 fine-tuned,4,top5,85.13
+tickets_appli,1984,rfsz6 stage 1 only,1,top1,75.2
+tickets_appli,1984,rfsz6 stage 1 only,1,top5,90.22
+tickets_appli,1984,rfsz6 stage 1 only,2,top1,73.14
+tickets_appli,1984,rfsz6 stage 1 only,2,top5,87.6
+tickets_appli,1984,rfsz6 stage 1 only,3,top1,64.47
+tickets_appli,1984,rfsz6 stage 1 only,3,top5,80.29
+tickets_appli,1984,rfsz6 stage 1 only,4,top1,57.91
+tickets_appli,1984,rfsz6 stage 1 only,4,top5,73.14
+tickets_appli,1984,4l2qv annotations only,1,top1,83.01
+tickets_appli,1984,4l2qv annotations only,1,top5,91.08
+tickets_appli,1984,4l2qv annotations only,2,top1,80.7
+tickets_appli,1984,4l2qv annotations only,2,top5,89.06
+tickets_appli,1984,4l2qv annotations only,3,top1,71.57
+tickets_appli,1984,4l2qv annotations only,3,top5,84.78
+tickets_appli,1984,4l2qv annotations only,4,top1,64.87
+tickets_appli,1984,4l2qv annotations only,4,top5,81.65
+carnets_papier | text seen in training,6749,current (April),1,top1,93.44
+carnets_papier | text seen in training,6749,current (April),1,top5,98.64
+carnets_papier | text seen in training,6749,current (April),2,top1,92.75
+carnets_papier | text seen in training,6749,current (April),2,top5,97.84
+carnets_papier | text seen in training,6749,current (April),3,top1,89.15
+carnets_papier | text seen in training,6749,current (April),3,top5,96.28
+carnets_papier | text seen in training,6749,current (April),4,top1,81.72
+carnets_papier | text seen in training,6749,current (April),4,top5,90.78
+carnets_papier | text seen in training,6749,rfsz6 fine-tuned,1,top1,94.33
+carnets_papier | text seen in training,6749,rfsz6 fine-tuned,1,top5,98.79
+carnets_papier | text seen in training,6749,rfsz6 fine-tuned,2,top1,93.58
+carnets_papier | text seen in training,6749,rfsz6 fine-tuned,2,top5,98.0
+carnets_papier | text seen in training,6749,rfsz6 fine-tuned,3,top1,90.56
+carnets_papier | text seen in training,6749,rfsz6 fine-tuned,3,top5,96.7
+carnets_papier | text seen in training,6749,rfsz6 fine-tuned,4,top1,82.23
+carnets_papier | text seen in training,6749,rfsz6 fine-tuned,4,top5,91.24
+carnets_papier | text seen in training,6749,rfsz6 stage 1 only,1,top1,63.51
+carnets_papier | text seen in training,6749,rfsz6 stage 1 only,1,top5,89.35
+carnets_papier | text seen in training,6749,rfsz6 stage 1 only,2,top1,59.16
+carnets_papier | text seen in training,6749,rfsz6 stage 1 only,2,top5,86.72
+carnets_papier | text seen in training,6749,rfsz6 stage 1 only,3,top1,50.01
+carnets_papier | text seen in training,6749,rfsz6 stage 1 only,3,top5,79.69
+carnets_papier | text seen in training,6749,rfsz6 stage 1 only,4,top1,44.53
+carnets_papier | text seen in training,6749,rfsz6 stage 1 only,4,top5,69.06
+carnets_papier | text seen in training,6749,4l2qv annotations only,1,top1,94.12
+carnets_papier | text seen in training,6749,4l2qv annotations only,1,top5,99.16
+carnets_papier | text seen in training,6749,4l2qv annotations only,2,top1,93.27
+carnets_papier | text seen in training,6749,4l2qv annotations only,2,top5,98.71
+carnets_papier | text seen in training,6749,4l2qv annotations only,3,top1,89.51
+carnets_papier | text seen in training,6749,4l2qv annotations only,3,top5,97.39
+carnets_papier | text seen in training,6749,4l2qv annotations only,4,top1,84.5
+carnets_papier | text seen in training,6749,4l2qv annotations only,4,top5,95.94
+carnets_papier | new text,3982,current (April),1,top1,74.49
+carnets_papier | new text,3982,current (April),1,top5,88.65
+carnets_papier | new text,3982,current (April),2,top1,71.62
+carnets_papier | new text,3982,current (April),2,top5,85.48
+carnets_papier | new text,3982,current (April),3,top1,65.14
+carnets_papier | new text,3982,current (April),3,top5,80.64
+carnets_papier | new text,3982,current (April),4,top1,57.36
+carnets_papier | new text,3982,current (April),4,top5,73.58
+carnets_papier | new text,3982,rfsz6 fine-tuned,1,top1,75.21
+carnets_papier | new text,3982,rfsz6 fine-tuned,1,top5,89.5
+carnets_papier | new text,3982,rfsz6 fine-tuned,2,top1,72.7
+carnets_papier | new text,3982,rfsz6 fine-tuned,2,top5,86.39
+carnets_papier | new text,3982,rfsz6 fine-tuned,3,top1,66.55
+carnets_papier | new text,3982,rfsz6 fine-tuned,3,top5,82.22
+carnets_papier | new text,3982,rfsz6 fine-tuned,4,top1,58.54
+carnets_papier | new text,3982,rfsz6 fine-tuned,4,top5,75.24
+carnets_papier | new text,3982,rfsz6 stage 1 only,1,top1,53.31
+carnets_papier | new text,3982,rfsz6 stage 1 only,1,top5,74.08
+carnets_papier | new text,3982,rfsz6 stage 1 only,2,top1,46.76
+carnets_papier | new text,3982,rfsz6 stage 1 only,2,top5,66.88
+carnets_papier | new text,3982,rfsz6 stage 1 only,3,top1,38.55
+carnets_papier | new text,3982,rfsz6 stage 1 only,3,top5,58.56
+carnets_papier | new text,3982,rfsz6 stage 1 only,4,top1,32.3
+carnets_papier | new text,3982,rfsz6 stage 1 only,4,top5,49.55
+carnets_papier | new text,3982,4l2qv annotations only,1,top1,73.61
+carnets_papier | new text,3982,4l2qv annotations only,1,top5,88.85
+carnets_papier | new text,3982,4l2qv annotations only,2,top1,71.3
+carnets_papier | new text,3982,4l2qv annotations only,2,top5,85.84
+carnets_papier | new text,3982,4l2qv annotations only,3,top1,65.07
+carnets_papier | new text,3982,4l2qv annotations only,3,top5,82.02
+carnets_papier | new text,3982,4l2qv annotations only,4,top1,57.38
+carnets_papier | new text,3982,4l2qv annotations only,4,top5,77.9
+tickets_papier | text seen in training,125,current (April),1,top1,98.4
+tickets_papier | text seen in training,125,current (April),1,top5,100.0
+tickets_papier | text seen in training,125,current (April),2,top1,98.4
+tickets_papier | text seen in training,125,current (April),2,top5,99.2
+tickets_papier | text seen in training,125,current (April),3,top1,94.4
+tickets_papier | text seen in training,125,current (April),3,top5,99.2
+tickets_papier | text seen in training,125,current (April),4,top1,84.8
+tickets_papier | text seen in training,125,current (April),4,top5,96.0
+tickets_papier | text seen in training,125,rfsz6 fine-tuned,1,top1,98.4
+tickets_papier | text seen in training,125,rfsz6 fine-tuned,1,top5,99.2
+tickets_papier | text seen in training,125,rfsz6 fine-tuned,2,top1,98.4
+tickets_papier | text seen in training,125,rfsz6 fine-tuned,2,top5,99.2
+tickets_papier | text seen in training,125,rfsz6 fine-tuned,3,top1,94.4
+tickets_papier | text seen in training,125,rfsz6 fine-tuned,3,top5,99.2
+tickets_papier | text seen in training,125,rfsz6 fine-tuned,4,top1,84.8
+tickets_papier | text seen in training,125,rfsz6 fine-tuned,4,top5,97.6
+tickets_papier | text seen in training,125,rfsz6 stage 1 only,1,top1,66.4
+tickets_papier | text seen in training,125,rfsz6 stage 1 only,1,top5,91.2
+tickets_papier | text seen in training,125,rfsz6 stage 1 only,2,top1,66.4
+tickets_papier | text seen in training,125,rfsz6 stage 1 only,2,top5,90.4
+tickets_papier | text seen in training,125,rfsz6 stage 1 only,3,top1,53.6
+tickets_papier | text seen in training,125,rfsz6 stage 1 only,3,top5,85.6
+tickets_papier | text seen in training,125,rfsz6 stage 1 only,4,top1,48.8
+tickets_papier | text seen in training,125,rfsz6 stage 1 only,4,top5,75.2
+tickets_papier | text seen in training,125,4l2qv annotations only,1,top1,98.4
+tickets_papier | text seen in training,125,4l2qv annotations only,1,top5,100.0
+tickets_papier | text seen in training,125,4l2qv annotations only,2,top1,98.4
+tickets_papier | text seen in training,125,4l2qv annotations only,2,top5,99.2
+tickets_papier | text seen in training,125,4l2qv annotations only,3,top1,94.4
+tickets_papier | text seen in training,125,4l2qv annotations only,3,top5,99.2
+tickets_papier | text seen in training,125,4l2qv annotations only,4,top1,83.2
+tickets_papier | text seen in training,125,4l2qv annotations only,4,top5,96.8
+tickets_papier | new text,1855,current (April),1,top1,86.52
+tickets_papier | new text,1855,current (April),1,top5,93.32
+tickets_papier | new text,1855,current (April),2,top1,84.47
+tickets_papier | new text,1855,current (April),2,top5,91.37
+tickets_papier | new text,1855,current (April),3,top1,75.63
+tickets_papier | new text,1855,current (April),3,top5,88.03
+tickets_papier | new text,1855,current (April),4,top1,68.63
+tickets_papier | new text,1855,current (April),4,top5,84.96
+tickets_papier | new text,1855,rfsz6 fine-tuned,1,top1,87.33
+tickets_papier | new text,1855,rfsz6 fine-tuned,1,top5,94.66
+tickets_papier | new text,1855,rfsz6 fine-tuned,2,top1,86.04
+tickets_papier | new text,1855,rfsz6 fine-tuned,2,top5,93.58
+tickets_papier | new text,1855,rfsz6 fine-tuned,3,top1,77.84
+tickets_papier | new text,1855,rfsz6 fine-tuned,3,top5,90.57
+tickets_papier | new text,1855,rfsz6 fine-tuned,4,top1,71.75
+tickets_papier | new text,1855,rfsz6 fine-tuned,4,top5,87.65
+tickets_papier | new text,1855,rfsz6 stage 1 only,1,top1,77.74
+tickets_papier | new text,1855,rfsz6 stage 1 only,1,top5,90.03
+tickets_papier | new text,1855,rfsz6 stage 1 only,2,top1,76.28
+tickets_papier | new text,1855,rfsz6 stage 1 only,2,top5,87.98
+tickets_papier | new text,1855,rfsz6 stage 1 only,3,top1,67.22
+tickets_papier | new text,1855,rfsz6 stage 1 only,3,top5,82.75
+tickets_papier | new text,1855,rfsz6 stage 1 only,4,top1,60.49
+tickets_papier | new text,1855,rfsz6 stage 1 only,4,top5,74.72
+tickets_papier | new text,1855,4l2qv annotations only,1,top1,84.2
+tickets_papier | new text,1855,4l2qv annotations only,1,top5,92.61
+tickets_papier | new text,1855,4l2qv annotations only,2,top1,82.53
+tickets_papier | new text,1855,4l2qv annotations only,2,top5,91.27
+tickets_papier | new text,1855,4l2qv annotations only,3,top1,73.32
+tickets_papier | new text,1855,4l2qv annotations only,3,top5,85.93
+tickets_papier | new text,1855,4l2qv annotations only,4,top1,66.79
+tickets_papier | new text,1855,4l2qv annotations only,4,top5,82.64
+tickets_appli | text seen in training,127,current (April),1,top1,96.06
+tickets_appli | text seen in training,127,current (April),1,top5,99.21
+tickets_appli | text seen in training,127,current (April),2,top1,95.28
+tickets_appli | text seen in training,127,current (April),2,top5,98.43
+tickets_appli | text seen in training,127,current (April),3,top1,91.34
+tickets_appli | text seen in training,127,current (April),3,top5,97.64
+tickets_appli | text seen in training,127,current (April),4,top1,82.68
+tickets_appli | text seen in training,127,current (April),4,top5,97.64
+tickets_appli | text seen in training,127,rfsz6 fine-tuned,1,top1,96.06
+tickets_appli | text seen in training,127,rfsz6 fine-tuned,1,top5,97.64
+tickets_appli | text seen in training,127,rfsz6 fine-tuned,2,top1,95.28
+tickets_appli | text seen in training,127,rfsz6 fine-tuned,2,top5,97.64
+tickets_appli | text seen in training,127,rfsz6 fine-tuned,3,top1,91.34
+tickets_appli | text seen in training,127,rfsz6 fine-tuned,3,top5,97.64
+tickets_appli | text seen in training,127,rfsz6 fine-tuned,4,top1,81.89
+tickets_appli | text seen in training,127,rfsz6 fine-tuned,4,top5,96.85
+tickets_appli | text seen in training,127,rfsz6 stage 1 only,1,top1,75.59
+tickets_appli | text seen in training,127,rfsz6 stage 1 only,1,top5,92.91
+tickets_appli | text seen in training,127,rfsz6 stage 1 only,2,top1,74.8
+tickets_appli | text seen in training,127,rfsz6 stage 1 only,2,top5,91.34
+tickets_appli | text seen in training,127,rfsz6 stage 1 only,3,top1,62.99
+tickets_appli | text seen in training,127,rfsz6 stage 1 only,3,top5,82.68
+tickets_appli | text seen in training,127,rfsz6 stage 1 only,4,top1,55.91
+tickets_appli | text seen in training,127,rfsz6 stage 1 only,4,top5,72.44
+tickets_appli | text seen in training,127,4l2qv annotations only,1,top1,95.28
+tickets_appli | text seen in training,127,4l2qv annotations only,1,top5,97.64
+tickets_appli | text seen in training,127,4l2qv annotations only,2,top1,94.49
+tickets_appli | text seen in training,127,4l2qv annotations only,2,top5,96.85
+tickets_appli | text seen in training,127,4l2qv annotations only,3,top1,90.55
+tickets_appli | text seen in training,127,4l2qv annotations only,3,top5,96.85
+tickets_appli | text seen in training,127,4l2qv annotations only,4,top1,81.1
+tickets_appli | text seen in training,127,4l2qv annotations only,4,top5,94.49
+tickets_appli | new text,1857,current (April),1,top1,85.41
+tickets_appli | new text,1857,current (April),1,top5,92.73
+tickets_appli | new text,1857,current (April),2,top1,83.58
+tickets_appli | new text,1857,current (April),2,top5,90.58
+tickets_appli | new text,1857,current (April),3,top1,73.99
+tickets_appli | new text,1857,current (April),3,top5,86.91
+tickets_appli | new text,1857,current (April),4,top1,67.85
+tickets_appli | new text,1857,current (April),4,top5,82.98
+tickets_appli | new text,1857,rfsz6 fine-tuned,1,top1,85.14
+tickets_appli | new text,1857,rfsz6 fine-tuned,1,top5,93.0
+tickets_appli | new text,1857,rfsz6 fine-tuned,2,top1,83.58
+tickets_appli | new text,1857,rfsz6 fine-tuned,2,top5,90.58
+tickets_appli | new text,1857,rfsz6 fine-tuned,3,top1,75.98
+tickets_appli | new text,1857,rfsz6 fine-tuned,3,top5,87.51
+tickets_appli | new text,1857,rfsz6 fine-tuned,4,top1,69.25
+tickets_appli | new text,1857,rfsz6 fine-tuned,4,top5,84.33
+tickets_appli | new text,1857,rfsz6 stage 1 only,1,top1,75.18
+tickets_appli | new text,1857,rfsz6 stage 1 only,1,top5,90.04
+tickets_appli | new text,1857,rfsz6 stage 1 only,2,top1,73.02
+tickets_appli | new text,1857,rfsz6 stage 1 only,2,top5,87.35
+tickets_appli | new text,1857,rfsz6 stage 1 only,3,top1,64.57
+tickets_appli | new text,1857,rfsz6 stage 1 only,3,top5,80.13
+tickets_appli | new text,1857,rfsz6 stage 1 only,4,top1,58.05
+tickets_appli | new text,1857,rfsz6 stage 1 only,4,top5,73.18
+tickets_appli | new text,1857,4l2qv annotations only,1,top1,82.18
+tickets_appli | new text,1857,4l2qv annotations only,1,top5,90.63
+tickets_appli | new text,1857,4l2qv annotations only,2,top1,79.75
+tickets_appli | new text,1857,4l2qv annotations only,2,top5,88.53
+tickets_appli | new text,1857,4l2qv annotations only,3,top1,70.27
+tickets_appli | new text,1857,4l2qv annotations only,3,top5,83.95
+tickets_appli | new text,1857,4l2qv annotations only,4,top1,63.76
+tickets_appli | new text,1857,4l2qv annotations only,4,top5,80.78
+excluding 98/99,13961,current (April),1,top1,89.41
+excluding 98/99,13961,current (April),1,top5,97.06
+excluding 98/99,13961,current (April),2,top1,88.07
+excluding 98/99,13961,current (April),2,top5,95.62
+excluding 98/99,13961,current (April),3,top1,82.31
+excluding 98/99,13961,current (April),3,top5,93.07
+excluding 98/99,13961,current (April),4,top1,74.59
+excluding 98/99,13961,current (April),4,top5,87.45
+excluding 98/99,13961,rfsz6 fine-tuned,1,top1,89.91
+excluding 98/99,13961,rfsz6 fine-tuned,1,top5,96.82
+excluding 98/99,13961,rfsz6 fine-tuned,2,top1,88.63
+excluding 98/99,13961,rfsz6 fine-tuned,2,top5,95.63
+excluding 98/99,13961,rfsz6 fine-tuned,3,top1,83.48
+excluding 98/99,13961,rfsz6 fine-tuned,3,top5,93.34
+excluding 98/99,13961,rfsz6 fine-tuned,4,top1,75.35
+excluding 98/99,13961,rfsz6 fine-tuned,4,top5,87.96
+excluding 98/99,13961,rfsz6 stage 1 only,1,top1,66.72
+excluding 98/99,13961,rfsz6 stage 1 only,1,top5,88.22
+excluding 98/99,13961,rfsz6 stage 1 only,2,top1,62.35
+excluding 98/99,13961,rfsz6 stage 1 only,2,top5,84.37
+excluding 98/99,13961,rfsz6 stage 1 only,3,top1,53.25
+excluding 98/99,13961,rfsz6 stage 1 only,3,top5,77.06
+excluding 98/99,13961,rfsz6 stage 1 only,4,top1,47.0
+excluding 98/99,13961,rfsz6 stage 1 only,4,top5,67.23
+excluding 98/99,13961,4l2qv annotations only,1,top1,88.5
+excluding 98/99,13961,4l2qv annotations only,1,top5,96.43
+excluding 98/99,13961,4l2qv annotations only,2,top1,87.0
+excluding 98/99,13961,4l2qv annotations only,2,top5,95.17
+excluding 98/99,13961,4l2qv annotations only,3,top1,81.2
+excluding 98/99,13961,4l2qv annotations only,3,top5,92.62
+excluding 98/99,13961,4l2qv annotations only,4,top1,74.72
+excluding 98/99,13961,4l2qv annotations only,4,top5,89.9
+98/99 only,734,current (April),1,top1,30.65
+98/99 only,734,current (April),1,top5,46.46
+98/99 only,734,current (April),2,top1,24.39
+98/99 only,734,current (April),2,top5,38.56
+98/99 only,734,current (April),3,top1,17.85
+98/99 only,734,current (April),3,top5,28.61
+98/99 only,734,current (April),4,top1,17.71
+98/99 only,734,current (April),4,top5,28.47
+98/99 only,734,rfsz6 fine-tuned,1,top1,34.74
+98/99 only,734,rfsz6 fine-tuned,1,top5,60.63
+98/99 only,734,rfsz6 fine-tuned,2,top1,31.2
+98/99 only,734,rfsz6 fine-tuned,2,top5,50.27
+98/99 only,734,rfsz6 fine-tuned,3,top1,26.7
+98/99 only,734,rfsz6 fine-tuned,3,top5,43.87
+98/99 only,734,rfsz6 fine-tuned,4,top1,25.61
+98/99 only,734,rfsz6 fine-tuned,4,top5,42.37
+98/99 only,734,rfsz6 stage 1 only,1,top1,15.12
+98/99 only,734,rfsz6 stage 1 only,1,top5,32.43
+98/99 only,734,rfsz6 stage 1 only,2,top1,13.49
+98/99 only,734,rfsz6 stage 1 only,2,top5,29.97
+98/99 only,734,rfsz6 stage 1 only,3,top1,9.4
+98/99 only,734,rfsz6 stage 1 only,3,top5,25.48
+98/99 only,734,rfsz6 stage 1 only,4,top1,8.45
+98/99 only,734,rfsz6 stage 1 only,4,top5,24.39
+98/99 only,734,4l2qv annotations only,1,top1,35.42
+98/99 only,734,4l2qv annotations only,1,top5,56.95
+98/99 only,734,4l2qv annotations only,2,top1,33.11
+98/99 only,734,4l2qv annotations only,2,top5,51.5
+98/99 only,734,4l2qv annotations only,3,top1,26.29
+98/99 only,734,4l2qv annotations only,3,top5,41.96
+98/99 only,734,4l2qv annotations only,4,top1,25.48
+98/99 only,734,4l2qv annotations only,4,top5,40.87
+carnets_papier | excluding 98/99,10194,current (April),1,top1,89.2
+carnets_papier | excluding 98/99,10194,current (April),1,top5,97.37
+carnets_papier | excluding 98/99,10194,current (April),2,top1,87.8
+carnets_papier | excluding 98/99,10194,current (April),2,top5,95.81
+carnets_papier | excluding 98/99,10194,current (April),3,top1,83.25
+carnets_papier | excluding 98/99,10194,current (April),3,top5,93.29
+carnets_papier | excluding 98/99,10194,current (April),4,top1,75.29
+carnets_papier | excluding 98/99,10194,current (April),4,top5,86.9
+carnets_papier | excluding 98/99,10194,rfsz6 fine-tuned,1,top1,89.6
+carnets_papier | excluding 98/99,10194,rfsz6 fine-tuned,1,top5,97.0
+carnets_papier | excluding 98/99,10194,rfsz6 fine-tuned,2,top1,88.29
+carnets_papier | excluding 98/99,10194,rfsz6 fine-tuned,2,top5,95.6
+carnets_papier | excluding 98/99,10194,rfsz6 fine-tuned,3,top1,84.1
+carnets_papier | excluding 98/99,10194,rfsz6 fine-tuned,3,top5,93.36
+carnets_papier | excluding 98/99,10194,rfsz6 fine-tuned,4,top1,75.53
+carnets_papier | excluding 98/99,10194,rfsz6 fine-tuned,4,top5,87.13
+carnets_papier | excluding 98/99,10194,rfsz6 stage 1 only,1,top1,61.85
+carnets_papier | excluding 98/99,10194,rfsz6 stage 1 only,1,top5,86.3
+carnets_papier | excluding 98/99,10194,rfsz6 stage 1 only,2,top1,56.53
+carnets_papier | excluding 98/99,10194,rfsz6 stage 1 only,2,top5,81.85
+carnets_papier | excluding 98/99,10194,rfsz6 stage 1 only,3,top1,47.56
+carnets_papier | excluding 98/99,10194,rfsz6 stage 1 only,3,top5,74.15
+carnets_papier | excluding 98/99,10194,rfsz6 stage 1 only,4,top1,41.49
+carnets_papier | excluding 98/99,10194,rfsz6 stage 1 only,4,top5,63.61
+carnets_papier | excluding 98/99,10194,4l2qv annotations only,1,top1,88.92
+carnets_papier | excluding 98/99,10194,4l2qv annotations only,1,top5,97.01
+carnets_papier | excluding 98/99,10194,4l2qv annotations only,2,top1,87.57
+carnets_papier | excluding 98/99,10194,4l2qv annotations only,2,top5,95.81
+carnets_papier | excluding 98/99,10194,4l2qv annotations only,3,top1,82.86
+carnets_papier | excluding 98/99,10194,4l2qv annotations only,3,top5,93.61
+carnets_papier | excluding 98/99,10194,4l2qv annotations only,4,top1,76.6
+carnets_papier | excluding 98/99,10194,4l2qv annotations only,4,top5,91.11
+tickets_papier | excluding 98/99,1890,current (April),1,top1,90.05
+tickets_papier | excluding 98/99,1890,current (April),1,top5,95.98
+tickets_papier | excluding 98/99,1890,current (April),2,top1,89.1
+tickets_papier | excluding 98/99,1890,current (April),2,top5,95.19
+tickets_papier | excluding 98/99,1890,current (April),3,top1,80.26
+tickets_papier | excluding 98/99,1890,current (April),3,top5,92.59
+tickets_papier | excluding 98/99,1890,current (April),4,top1,72.75
+tickets_papier | excluding 98/99,1890,current (April),4,top5,89.37
+tickets_papier | excluding 98/99,1890,rfsz6 fine-tuned,1,top1,91.27
+tickets_papier | excluding 98/99,1890,rfsz6 fine-tuned,1,top5,96.4
+tickets_papier | excluding 98/99,1890,rfsz6 fine-tuned,2,top1,90.05
+tickets_papier | excluding 98/99,1890,rfsz6 fine-tuned,2,top5,96.03
+tickets_papier | excluding 98/99,1890,rfsz6 fine-tuned,3,top1,82.28
+tickets_papier | excluding 98/99,1890,rfsz6 fine-tuned,3,top5,93.86
+tickets_papier | excluding 98/99,1890,rfsz6 fine-tuned,4,top1,75.66
+tickets_papier | excluding 98/99,1890,rfsz6 fine-tuned,4,top5,90.9
+tickets_papier | excluding 98/99,1890,rfsz6 stage 1 only,1,top1,80.32
+tickets_papier | excluding 98/99,1890,rfsz6 stage 1 only,1,top5,92.7
+tickets_papier | excluding 98/99,1890,rfsz6 stage 1 only,2,top1,78.89
+tickets_papier | excluding 98/99,1890,rfsz6 stage 1 only,2,top5,90.79
+tickets_papier | excluding 98/99,1890,rfsz6 stage 1 only,3,top1,69.15
+tickets_papier | excluding 98/99,1890,rfsz6 stage 1 only,3,top5,85.45
+tickets_papier | excluding 98/99,1890,rfsz6 stage 1 only,4,top1,62.59
+tickets_papier | excluding 98/99,1890,rfsz6 stage 1 only,4,top5,77.25
+tickets_papier | excluding 98/99,1890,4l2qv annotations only,1,top1,87.88
+tickets_papier | excluding 98/99,1890,4l2qv annotations only,1,top5,95.13
+tickets_papier | excluding 98/99,1890,4l2qv annotations only,2,top1,86.51
+tickets_papier | excluding 98/99,1890,4l2qv annotations only,2,top5,94.18
+tickets_papier | excluding 98/99,1890,4l2qv annotations only,3,top1,77.83
+tickets_papier | excluding 98/99,1890,4l2qv annotations only,3,top5,90.37
+tickets_papier | excluding 98/99,1890,4l2qv annotations only,4,top1,70.69
+tickets_papier | excluding 98/99,1890,4l2qv annotations only,4,top5,87.04
+tickets_appli | excluding 98/99,1877,current (April),1,top1,89.93
+tickets_appli | excluding 98/99,1877,current (April),1,top5,96.43
+tickets_appli | excluding 98/99,1877,current (April),2,top1,88.55
+tickets_appli | excluding 98/99,1877,current (April),2,top5,95.05
+tickets_appli | excluding 98/99,1877,current (April),3,top1,79.28
+tickets_appli | excluding 98/99,1877,current (April),3,top5,92.38
+tickets_appli | excluding 98/99,1877,current (April),4,top1,72.62
+tickets_appli | excluding 98/99,1877,current (April),4,top5,88.49
+tickets_appli | excluding 98/99,1877,rfsz6 fine-tuned,1,top1,90.2
+tickets_appli | excluding 98/99,1877,rfsz6 fine-tuned,1,top5,96.27
+tickets_appli | excluding 98/99,1877,rfsz6 fine-tuned,2,top1,89.08
+tickets_appli | excluding 98/99,1877,rfsz6 fine-tuned,2,top5,95.42
+tickets_appli | excluding 98/99,1877,rfsz6 fine-tuned,3,top1,81.35
+tickets_appli | excluding 98/99,1877,rfsz6 fine-tuned,3,top5,92.7
+tickets_appli | excluding 98/99,1877,rfsz6 fine-tuned,4,top1,74.05
+tickets_appli | excluding 98/99,1877,rfsz6 fine-tuned,4,top5,89.5
+tickets_appli | excluding 98/99,1877,rfsz6 stage 1 only,1,top1,79.49
+tickets_appli | excluding 98/99,1877,rfsz6 stage 1 only,1,top5,94.14
+tickets_appli | excluding 98/99,1877,rfsz6 stage 1 only,2,top1,77.3
+tickets_appli | excluding 98/99,1877,rfsz6 stage 1 only,2,top5,91.58
+tickets_appli | excluding 98/99,1877,rfsz6 stage 1 only,3,top1,68.14
+tickets_appli | excluding 98/99,1877,rfsz6 stage 1 only,3,top5,84.39
+tickets_appli | excluding 98/99,1877,rfsz6 stage 1 only,4,top1,61.21
+tickets_appli | excluding 98/99,1877,rfsz6 stage 1 only,4,top5,76.82
+tickets_appli | excluding 98/99,1877,4l2qv annotations only,1,top1,86.84
+tickets_appli | excluding 98/99,1877,4l2qv annotations only,1,top5,94.57
+tickets_appli | excluding 98/99,1877,4l2qv annotations only,2,top1,84.39
+tickets_appli | excluding 98/99,1877,4l2qv annotations only,2,top5,92.65
+tickets_appli | excluding 98/99,1877,4l2qv annotations only,3,top1,75.6
+tickets_appli | excluding 98/99,1877,4l2qv annotations only,3,top5,89.5
+tickets_appli | excluding 98/99,1877,4l2qv annotations only,4,top1,68.51
+tickets_appli | excluding 98/99,1877,4l2qv annotations only,4,top5,86.2

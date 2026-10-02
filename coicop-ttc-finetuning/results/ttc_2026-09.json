@@ -1,0 +1,49 @@
+{
+  "stage1_only": {
+    "N": 14695,
+    "L1_top1": 64.14,
+    "L1_top5": 85.43,
+    "L2_top1": 59.91,
+    "L2_top5": 81.65,
+    "L3_top1": 51.06,
+    "L3_top5": 74.48,
+    "L4_top1": 45.07,
+    "L4_top5": 65.09
+  },
+  "annotations_only": {
+    "N": 14695,
+    "L1_top1": 85.85,
+    "L1_top5": 94.45,
+    "L2_top1": 84.31,
+    "L2_top5": 92.98,
+    "L3_top1": 78.46,
+    "L3_top5": 90.09,
+    "L4_top1": 72.26,
+    "L4_top5": 87.45
+  },
+  "stage1_stage2": {
+    "N": 14695,
+    "L1_top1": 87.15,
+    "L1_top5": 95.01,
+    "L2_top1": 85.76,
+    "L2_top5": 93.37,
+    "L3_top1": 80.65,
+    "L3_top5": 90.87,
+    "L4_top1": 72.87,
+    "L4_top5": 85.68
+  },
+  "mlflow_runs": {
+    "stage1_only": "feeaae8bd0354a479e92eb5ba182b765",
+    "stage1_stage2": "8355c81055fb448dbb66e35a1333e142",
+    "annotations_only": "9065f72379d44cd1b48f8a3878d1c105"
+  },
+  "train_source_counts": {
+    "bdf_2017": 93305,
+    "receipts_from_app": 6947,
+    "suggester": 6609,
+    "manual_from_book": 5410,
+    "manual_from_app": 410
+  },
+  "train_rows": 112681,
+  "train_distinct_codes": 349
+}

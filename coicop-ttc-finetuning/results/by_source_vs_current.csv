@@ -1,0 +1,481 @@
+group,N,model,level,metric,current,model_acc,vs_current_diff_points,vs_current_ci95_low,vs_current_ci95_high,vs_current_only_april_right,vs_current_only_september_right,vs_current_mcnemar_p
+all,14695,rfsz6 fine-tuned,1,top1,86.48,87.15,0.67,0.27,1.06,400,499,0.0010700536932758662
+all,14695,rfsz6 fine-tuned,1,top5,94.53,95.01,0.48,0.18,0.79,241,312,0.002880141392137697
+all,14695,rfsz6 fine-tuned,2,top1,84.89,85.76,0.87,0.5,1.25,362,490,1.3087266085640328e-05
+all,14695,rfsz6 fine-tuned,2,top5,92.77,93.37,0.59,0.28,0.91,244,331,0.00032731456852214737
+all,14695,rfsz6 fine-tuned,3,top1,79.09,80.65,1.56,1.12,2.01,397,626,8.189849452233228e-13
+all,14695,rfsz6 fine-tuned,3,top5,89.85,90.87,1.01,0.67,1.36,272,421,1.6701891694057637e-08
+all,14695,rfsz6 fine-tuned,4,top1,71.75,72.87,1.12,0.68,1.56,452,617,5.021251816068536e-07
+all,14695,rfsz6 fine-tuned,4,top5,84.5,85.68,1.18,0.8,1.54,293,466,3.6166996074546233e-10
+all,14695,rfsz6 stage 1 only,1,top1,86.48,64.14,-22.33,-23.12,-21.55,3788,506,0.0
+all,14695,rfsz6 stage 1 only,1,top5,94.53,85.43,-9.1,-9.62,-8.58,1497,160,3.274734149909084e-272
+all,14695,rfsz6 stage 1 only,2,top1,84.89,59.91,-24.98,-25.78,-24.14,4122,451,0.0
+all,14695,rfsz6 stage 1 only,2,top5,92.77,81.65,-11.12,-11.68,-10.57,1826,192,0.0
+all,14695,rfsz6 stage 1 only,3,top1,79.09,51.06,-28.03,-28.91,-27.19,4785,666,0.0
+all,14695,rfsz6 stage 1 only,3,top5,89.85,74.48,-15.37,-16.01,-14.71,2524,265,0.0
+all,14695,rfsz6 stage 1 only,4,top1,71.75,45.07,-26.68,-27.55,-25.82,4633,713,0.0
+all,14695,rfsz6 stage 1 only,4,top5,84.5,65.09,-19.41,-20.13,-18.73,3095,242,0.0
+all,14695,4l2qv annotations only,1,top1,86.48,85.85,-0.63,-1.12,-0.18,655,562,0.00833291648518506
+all,14695,4l2qv annotations only,1,top5,94.53,94.45,-0.07,-0.42,0.28,349,338,0.7028440252421497
+all,14695,4l2qv annotations only,2,top1,84.89,84.31,-0.59,-1.04,-0.12,660,574,0.015499452734122197
+all,14695,4l2qv annotations only,2,top5,92.77,92.98,0.21,-0.14,0.57,330,361,0.2537471029950139
+all,14695,4l2qv annotations only,3,top1,79.09,78.46,-0.63,-1.12,-0.14,736,644,0.014270612789899804
+all,14695,4l2qv annotations only,3,top5,89.85,90.09,0.24,-0.16,0.61,422,457,0.2514536813253095
+all,14695,4l2qv annotations only,4,top1,71.75,72.26,0.51,-0.03,1.07,801,876,0.07072599201487262
+all,14695,4l2qv annotations only,4,top5,84.5,87.45,2.95,2.44,3.46,499,932,1.1889580264515676e-30
+all,14695,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),1,top1,85.85,87.15,1.31,0.9,1.75,417,609,2.233032904101146e-09
+all,14695,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),1,top5,94.45,95.01,0.56,0.24,0.88,248,330,0.00074025272325716
+all,14695,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),2,top1,84.31,85.76,1.46,1.01,1.89,434,648,8.243179919843638e-11
+all,14695,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),2,top5,92.98,93.37,0.38,0.04,0.73,292,348,0.02962088220192508
+all,14695,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),3,top1,78.46,80.65,2.18,1.75,2.64,422,743,3.9002400199275255e-21
+all,14695,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),3,top5,90.09,90.87,0.78,0.42,1.15,293,407,1.870205091665241e-05
+all,14695,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),4,top1,72.26,72.87,0.61,0.14,1.12,679,769,0.019311094582686695
+all,14695,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),4,top5,87.45,85.68,-1.77,-2.23,-1.3,755,495,1.9562377797603654e-13
+carnets_papier,10731,rfsz6 fine-tuned,1,top1,86.4,87.23,0.83,0.35,1.3,276,365,0.0004998580482143257
+carnets_papier,10731,rfsz6 fine-tuned,1,top5,94.93,95.34,0.41,0.06,0.78,172,216,0.0289059702666778
+carnets_papier,10731,rfsz6 fine-tuned,2,top1,84.91,85.84,0.92,0.48,1.35,267,366,9.521162257018504e-05
+carnets_papier,10731,rfsz6 fine-tuned,2,top5,93.25,93.69,0.44,0.08,0.77,168,215,0.018631884818867087
+carnets_papier,10731,rfsz6 fine-tuned,3,top1,80.24,81.65,1.41,0.94,1.9,277,428,1.4253420294126037e-08
+carnets_papier,10731,rfsz6 fine-tuned,3,top5,90.48,91.32,0.85,0.47,1.24,196,287,4.018276103980577e-05
+carnets_papier,10731,rfsz6 fine-tuned,4,top1,72.68,73.44,0.76,0.25,1.25,312,394,0.0022772123651042323
+carnets_papier,10731,rfsz6 fine-tuned,4,top5,84.4,85.3,0.9,0.48,1.3,204,301,1.8334390137297943e-05
+carnets_papier,10731,rfsz6 stage 1 only,1,top1,86.4,59.72,-26.68,-27.61,-25.69,3243,380,0.0
+carnets_papier,10731,rfsz6 stage 1 only,1,top5,94.93,83.68,-11.25,-11.92,-10.6,1309,102,1.6858784196970773e-267
+carnets_papier,10731,rfsz6 stage 1 only,2,top1,84.91,54.56,-30.35,-31.32,-29.38,3584,327,0.0
+carnets_papier,10731,rfsz6 stage 1 only,2,top5,93.25,79.36,-13.89,-14.65,-13.22,1603,112,0.0
+carnets_papier,10731,rfsz6 stage 1 only,3,top1,80.24,45.76,-34.49,-35.53,-33.5,4096,395,0.0
+carnets_papier,10731,rfsz6 stage 1 only,3,top5,90.48,71.85,-18.63,-19.4,-17.82,2144,145,0.0
+carnets_papier,10731,rfsz6 stage 1 only,4,top1,72.68,39.99,-32.69,-33.81,-31.7,3897,389,0.0
+carnets_papier,10731,rfsz6 stage 1 only,4,top5,84.4,61.82,-22.58,-23.43,-21.75,2552,129,0.0
+carnets_papier,10731,4l2qv annotations only,1,top1,86.4,86.51,0.1,-0.43,0.64,425,436,0.7332768277152061
+carnets_papier,10731,4l2qv annotations only,1,top5,94.93,95.33,0.4,0.0,0.8,203,246,0.04734704002176858
+carnets_papier,10731,4l2qv annotations only,2,top1,84.91,85.12,0.21,-0.31,0.76,435,457,0.4819942502858677
+carnets_papier,10731,4l2qv annotations only,2,top5,93.25,93.93,0.68,0.29,1.1,205,278,0.0010319830906136318
+carnets_papier,10731,4l2qv annotations only,3,top1,80.24,80.44,0.2,-0.35,0.75,452,473,0.5108194703370215
+carnets_papier,10731,4l2qv annotations only,3,top5,90.48,91.69,1.21,0.76,1.65,247,377,2.193844059008424e-07
+carnets_papier,10731,4l2qv annotations only,4,top1,72.68,74.44,1.76,1.13,2.39,497,686,4.321845458786458e-08
+carnets_papier,10731,4l2qv annotations only,4,top5,84.4,89.25,4.85,4.26,5.44,280,800,1.732232037974743e-58
+carnets_papier,10731,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),1,top1,86.51,87.23,0.73,0.23,1.22,335,413,0.004838713591346554
+carnets_papier,10731,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),1,top5,95.33,95.34,0.01,-0.34,0.34,178,179,1.0
+carnets_papier,10731,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),2,top1,85.12,85.84,0.72,0.21,1.23,345,422,0.0060298309712541335
+carnets_papier,10731,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),2,top5,93.93,93.69,-0.24,-0.63,0.13,222,196,0.22136364450493484
+carnets_papier,10731,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),3,top1,80.44,81.65,1.21,0.7,1.71,323,453,3.465591866517709e-06
+carnets_papier,10731,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),3,top5,91.69,91.32,-0.36,-0.76,0.04,245,206,0.07344118307264581
+carnets_papier,10731,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),4,top1,74.44,73.44,-1.0,-1.6,-0.41,572,465,0.0009867315553448142
+carnets_papier,10731,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),4,top5,89.25,85.3,-3.94,-4.53,-3.41,674,251,2.3189194087670305e-45
+tickets_papier,1980,rfsz6 fine-tuned,1,top1,87.27,88.03,0.76,-0.4,1.92,60,75,0.22810347806601292
+tickets_papier,1980,rfsz6 fine-tuned,1,top5,93.74,94.95,1.21,0.3,2.02,26,50,0.007905180027859778
+tickets_papier,1980,rfsz6 fine-tuned,2,top1,85.35,86.82,1.46,0.4,2.53,43,72,0.008735108684333213
+tickets_papier,1980,rfsz6 fine-tuned,2,top5,91.87,93.94,2.07,1.16,3.03,23,64,1.2653512115621953e-05
+tickets_papier,1980,rfsz6 fine-tuned,3,top1,76.82,78.89,2.07,0.81,3.33,64,105,0.002001342228607924
+tickets_papier,1980,rfsz6 fine-tuned,3,top5,88.74,91.11,2.37,1.36,3.48,33,80,1.1461598747783254e-05
+tickets_papier,1980,rfsz6 fine-tuned,4,top1,69.65,72.58,2.93,1.62,4.29,67,125,3.427994870106963e-05
+tickets_papier,1980,rfsz6 fine-tuned,4,top5,85.66,88.28,2.63,1.46,3.79,41,93,8.23337485724204e-06
+tickets_papier,1980,rfsz6 stage 1 only,1,top1,87.27,77.02,-10.25,-11.92,-8.58,261,58,6.757139981043959e-32
+tickets_papier,1980,rfsz6 stage 1 only,1,top5,93.74,90.1,-3.64,-4.65,-2.58,93,21,5.312398934140964e-12
+tickets_papier,1980,rfsz6 stage 1 only,2,top1,85.35,75.66,-9.7,-11.31,-7.98,248,56,5.484647630175368e-30
+tickets_papier,1980,rfsz6 stage 1 only,2,top5,91.87,88.13,-3.74,-4.95,-2.57,111,37,8.746613299159052e-10
+tickets_papier,1980,rfsz6 stage 1 only,3,top1,76.82,66.36,-10.45,-12.53,-8.38,332,125,1.0107850498386092e-22
+tickets_papier,1980,rfsz6 stage 1 only,3,top5,88.74,82.93,-5.81,-7.37,-4.29,177,62,5.309893186867652e-14
+tickets_papier,1980,rfsz6 stage 1 only,4,top1,69.65,59.75,-9.9,-12.07,-7.73,357,161,4.204905548278217e-18
+tickets_papier,1980,rfsz6 stage 1 only,4,top5,85.66,74.75,-10.91,-12.63,-9.24,267,51,1.80387807621483e-36
+tickets_papier,1980,4l2qv annotations only,1,top1,87.27,85.1,-2.17,-3.48,-0.96,105,62,0.0010910583212808687
+tickets_papier,1980,4l2qv annotations only,1,top5,93.74,93.08,-0.66,-1.62,0.3,58,45,0.23690187778029265
+tickets_papier,1980,4l2qv annotations only,2,top1,85.35,83.54,-1.82,-3.08,-0.66,94,58,0.0043709380726187535
+tickets_papier,1980,4l2qv annotations only,2,top5,91.87,91.77,-0.1,-0.96,0.76,40,38,0.9099464518745243
+tickets_papier,1980,4l2qv annotations only,3,top1,76.82,74.65,-2.17,-3.64,-0.76,131,88,0.004429779647988838
+tickets_papier,1980,4l2qv annotations only,3,top5,88.74,86.77,-1.97,-3.08,-0.86,79,40,0.00044531067691715544
+tickets_papier,1980,4l2qv annotations only,4,top1,69.65,67.83,-1.82,-3.48,-0.35,142,106,0.026050172109578003
+tickets_papier,1980,4l2qv annotations only,4,top5,85.66,83.54,-2.12,-3.43,-0.86,104,62,0.0013880533620918968
+tickets_papier,1980,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),1,top1,85.1,88.03,2.93,1.82,4.09,38,96,5.721978776596946e-07
+tickets_papier,1980,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),1,top5,93.08,94.95,1.87,1.01,2.83,26,63,0.00010992624937112811
+tickets_papier,1980,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),2,top1,83.54,86.82,3.28,2.17,4.49,39,104,5.176751683141757e-08
+tickets_papier,1980,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),2,top5,91.77,93.94,2.17,1.21,3.08,23,66,5.690249181613522e-06
+tickets_papier,1980,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),3,top1,74.65,78.89,4.24,3.08,5.56,42,126,6.009507673225811e-11
+tickets_papier,1980,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),3,top5,86.77,91.11,4.34,3.33,5.4,15,101,7.752808767891495e-17
+tickets_papier,1980,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),4,top1,67.83,72.58,4.75,3.43,6.21,49,143,7.262557535882858e-12
+tickets_papier,1980,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),4,top5,83.54,88.28,4.75,3.54,5.91,28,122,3.430408065571779e-15
+tickets_appli,1984,rfsz6 fine-tuned,1,top1,86.09,85.84,-0.25,-1.36,0.91,64,59,0.7185088365549657
+tickets_appli,1984,rfsz6 fine-tuned,1,top5,93.15,93.3,0.15,-0.81,1.11,43,46,0.8322577540225787
+tickets_appli,1984,rfsz6 fine-tuned,2,top1,84.32,84.32,0.0,-1.01,1.01,52,52,1.0
+tickets_appli,1984,rfsz6 fine-tuned,2,top5,91.08,91.03,-0.05,-1.06,0.96,53,52,1.0
+tickets_appli,1984,rfsz6 fine-tuned,3,top1,75.1,76.97,1.86,0.66,2.97,56,93,0.003054473484947975
+tickets_appli,1984,rfsz6 fine-tuned,3,top5,87.6,88.16,0.55,-0.4,1.46,43,54,0.30993353423900705
+tickets_appli,1984,rfsz6 fine-tuned,4,top1,68.8,70.06,1.26,-0.1,2.47,73,98,0.0661429101428119
+tickets_appli,1984,rfsz6 fine-tuned,4,top5,83.92,85.13,1.21,0.1,2.22,48,72,0.035323682537769574
+tickets_appli,1984,rfsz6 stage 1 only,1,top1,86.09,75.2,-10.89,-12.7,-9.07,284,68,1.6474411494613233e-32
+tickets_appli,1984,rfsz6 stage 1 only,1,top5,93.15,90.22,-2.92,-3.98,-1.86,95,37,4.6385411141544356e-07
+tickets_appli,1984,rfsz6 stage 1 only,2,top1,84.32,73.14,-11.19,-13.1,-9.38,290,68,9.143281307169962e-34
+tickets_appli,1984,rfsz6 stage 1 only,2,top5,91.08,87.6,-3.48,-4.69,-2.22,112,43,2.8064874546953556e-08
+tickets_appli,1984,rfsz6 stage 1 only,3,top1,75.1,64.47,-10.64,-12.75,-8.37,357,146,1.9592729072953095e-21
+tickets_appli,1984,rfsz6 stage 1 only,3,top5,87.6,80.29,-7.31,-8.87,-5.8,203,58,4.9177789046891217e-20
+tickets_appli,1984,rfsz6 stage 1 only,4,top1,68.8,57.91,-10.89,-13.21,-8.72,379,163,7.816858195311499e-21
+tickets_appli,1984,rfsz6 stage 1 only,4,top5,83.92,73.14,-10.79,-12.5,-9.07,276,62,2.3173841795380058e-33
+tickets_appli,1984,4l2qv annotations only,1,top1,86.09,83.01,-3.07,-4.44,-1.71,125,64,1.080414196291547e-05
+tickets_appli,1984,4l2qv annotations only,1,top5,93.15,91.08,-2.07,-3.23,-0.91,88,47,0.0005273346057409776
+tickets_appli,1984,4l2qv annotations only,2,top1,84.32,80.7,-3.63,-4.94,-2.32,131,59,1.8712046877647839e-07
+tickets_appli,1984,4l2qv annotations only,2,top5,91.08,89.06,-2.02,-3.07,-0.91,85,45,0.0005715227032055847
+tickets_appli,1984,4l2qv annotations only,3,top1,75.1,71.57,-3.53,-5.04,-2.02,153,83,6.099553696307632e-06
+tickets_appli,1984,4l2qv annotations only,3,top5,87.6,84.78,-2.82,-4.03,-1.71,96,40,1.7393820303561753e-06
+tickets_appli,1984,4l2qv annotations only,4,top1,68.8,64.87,-3.93,-5.54,-2.37,162,84,7.452219402018038e-07
+tickets_appli,1984,4l2qv annotations only,4,top5,83.92,81.65,-2.27,-3.63,-0.91,115,70,0.0011580208202798708
+tickets_appli,1984,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),1,top1,83.01,85.84,2.82,1.66,4.03,44,100,3.4938096511091036e-06
+tickets_appli,1984,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),1,top5,91.08,93.3,2.22,1.11,3.38,44,88,0.00016023534882354646
+tickets_appli,1984,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),2,top1,80.7,84.32,3.63,2.32,4.89,50,122,3.952460425923357e-08
+tickets_appli,1984,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),2,top5,89.06,91.03,1.97,0.86,3.12,47,86,0.0009131976345915793
+tickets_appli,1984,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),3,top1,71.57,76.97,5.39,3.93,6.85,57,164,3.4137876815261207e-13
+tickets_appli,1984,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),3,top5,84.78,88.16,3.38,2.27,4.54,33,100,4.962954006694652e-09
+tickets_appli,1984,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),4,top1,64.87,70.06,5.19,3.78,6.7,58,161,2.1366774989556327e-12
+tickets_appli,1984,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),4,top5,81.65,85.13,3.48,2.17,4.79,53,122,1.927172606725538e-07
+carnets_papier | text seen in training,6749,rfsz6 fine-tuned,1,top1,93.44,94.33,0.89,0.55,1.26,44,104,8.873046763703941e-07
+carnets_papier | text seen in training,6749,rfsz6 fine-tuned,1,top5,98.64,98.79,0.15,-0.15,0.44,47,57,0.37758392329809853
+carnets_papier | text seen in training,6749,rfsz6 fine-tuned,2,top1,92.75,93.58,0.83,0.5,1.16,41,97,2.087575969839332e-06
+carnets_papier | text seen in training,6749,rfsz6 fine-tuned,2,top5,97.84,98.0,0.16,-0.09,0.42,36,47,0.2722689459720479
+carnets_papier | text seen in training,6749,rfsz6 fine-tuned,3,top1,89.15,90.56,1.41,1.02,1.81,47,142,2.7573455237043015e-12
+carnets_papier | text seen in training,6749,rfsz6 fine-tuned,3,top5,96.28,96.7,0.41,0.12,0.74,49,77,0.015818204008052113
+carnets_papier | text seen in training,6749,rfsz6 fine-tuned,4,top1,81.72,82.23,0.52,0.1,0.92,81,116,0.015205873559445663
+carnets_papier | text seen in training,6749,rfsz6 fine-tuned,4,top5,90.78,91.24,0.46,0.12,0.81,55,86,0.011256941042959104
+carnets_papier | text seen in training,6749,rfsz6 stage 1 only,1,top1,93.44,63.51,-29.93,-31.12,-28.7,2173,153,0.0
+carnets_papier | text seen in training,6749,rfsz6 stage 1 only,1,top5,98.64,89.35,-9.29,-10.0,-8.61,643,16,4.315273106276151e-167
+carnets_papier | text seen in training,6749,rfsz6 stage 1 only,2,top1,92.75,59.16,-33.59,-34.88,-32.35,2415,148,0.0
+carnets_papier | text seen in training,6749,rfsz6 stage 1 only,2,top5,97.84,86.72,-11.11,-11.93,-10.3,775,25,5.1676199868667683e-194
+carnets_papier | text seen in training,6749,rfsz6 stage 1 only,3,top1,89.15,50.01,-39.15,-40.47,-37.77,2845,203,0.0
+carnets_papier | text seen in training,6749,rfsz6 stage 1 only,3,top5,96.28,79.69,-16.6,-17.51,-15.68,1160,40,1.123082200975007e-286
+carnets_papier | text seen in training,6749,rfsz6 stage 1 only,4,top1,81.72,44.53,-37.19,-38.51,-35.92,2718,208,0.0
+carnets_papier | text seen in training,6749,rfsz6 stage 1 only,4,top5,90.78,69.06,-21.72,-22.71,-20.74,1500,34,0.0
+carnets_papier | text seen in training,6749,4l2qv annotations only,1,top1,93.44,94.12,0.68,0.16,1.21,139,185,0.012300712306636452
+carnets_papier | text seen in training,6749,4l2qv annotations only,1,top5,98.64,99.16,0.52,0.22,0.83,33,68,0.0006412485021695937
+carnets_papier | text seen in training,6749,4l2qv annotations only,2,top1,92.75,93.27,0.52,-0.03,1.08,160,195,0.0709979848036906
+carnets_papier | text seen in training,6749,4l2qv annotations only,2,top5,97.84,98.71,0.87,0.55,1.21,37,96,3.1939575642310876e-07
+carnets_papier | text seen in training,6749,4l2qv annotations only,3,top1,89.15,89.51,0.36,-0.21,0.92,173,197,0.23176367041173182
+carnets_papier | text seen in training,6749,4l2qv annotations only,3,top5,96.28,97.39,1.11,0.71,1.53,59,134,6.920948995468241e-08
+carnets_papier | text seen in training,6749,4l2qv annotations only,4,top1,81.72,84.5,2.79,2.1,3.48,192,380,3.01814347644716e-15
+carnets_papier | text seen in training,6749,4l2qv annotations only,4,top5,90.78,95.94,5.16,4.52,5.84,74,422,3.3740197372485856e-60
+carnets_papier | text seen in training,6749,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),1,top1,94.12,94.33,0.21,-0.27,0.71,135,149,0.4405200804502234
+carnets_papier | text seen in training,6749,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),1,top5,99.16,98.79,-0.37,-0.62,-0.12,49,24,0.004626293921895511
+carnets_papier | text seen in training,6749,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),2,top1,93.27,93.58,0.31,-0.21,0.83,145,166,0.2567182934224209
+carnets_papier | text seen in training,6749,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),2,top5,98.71,98.0,-0.71,-1.02,-0.41,79,31,5.344887082264565e-06
+carnets_papier | text seen in training,6749,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),3,top1,89.51,90.56,1.05,0.58,1.56,114,185,4.784347224774251e-05
+carnets_papier | text seen in training,6749,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),3,top5,97.39,96.7,-0.7,-1.04,-0.37,89,42,4.915299690811726e-05
+carnets_papier | text seen in training,6749,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),4,top1,84.5,82.23,-2.27,-2.92,-1.62,333,180,1.3745694590186522e-11
+carnets_papier | text seen in training,6749,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),4,top5,95.94,91.24,-4.7,-5.33,-4.1,392,75,7.686994923570613e-53
+carnets_papier | new text,3982,rfsz6 fine-tuned,1,top1,74.49,75.21,0.73,-0.35,1.78,232,261,0.2072432778342879
+carnets_papier | new text,3982,rfsz6 fine-tuned,1,top5,88.65,89.5,0.85,-0.03,1.71,125,159,0.05001631891918677
+carnets_papier | new text,3982,rfsz6 fine-tuned,2,top1,71.62,72.7,1.08,-0.03,2.16,226,269,0.05894868875286172
+carnets_papier | new text,3982,rfsz6 fine-tuned,2,top5,85.48,86.39,0.9,0.05,1.78,132,168,0.04312849927722171
+carnets_papier | new text,3982,rfsz6 fine-tuned,3,top1,65.14,66.55,1.41,0.3,2.49,230,286,0.01538663226387295
+carnets_papier | new text,3982,rfsz6 fine-tuned,3,top5,80.64,82.22,1.58,0.7,2.54,147,210,0.0010056137124893263
+carnets_papier | new text,3982,rfsz6 fine-tuned,4,top1,57.36,58.54,1.18,0.08,2.26,231,278,0.041353259328589985
+carnets_papier | new text,3982,rfsz6 fine-tuned,4,top5,73.58,75.24,1.66,0.68,2.59,149,215,0.0006371293576314993
+carnets_papier | new text,3982,rfsz6 stage 1 only,1,top1,74.49,53.31,-21.17,-22.83,-19.54,1070,227,4.545199497651386e-131
+carnets_papier | new text,3982,rfsz6 stage 1 only,1,top5,88.65,74.08,-14.57,-15.8,-13.28,666,86,5.767892435822314e-112
+carnets_papier | new text,3982,rfsz6 stage 1 only,2,top1,71.62,46.76,-24.86,-26.42,-23.25,1169,179,2.3765703805756614e-178
+carnets_papier | new text,3982,rfsz6 stage 1 only,2,top5,85.48,66.88,-18.61,-19.99,-17.33,828,87,2.466562000192365e-152
+carnets_papier | new text,3982,rfsz6 stage 1 only,3,top1,65.14,38.55,-26.59,-28.15,-24.94,1251,192,1.7203487279794075e-190
+carnets_papier | new text,3982,rfsz6 stage 1 only,3,top5,80.64,58.56,-22.07,-23.58,-20.59,984,105,1.3537696102060964e-179
+carnets_papier | new text,3982,rfsz6 stage 1 only,4,top1,57.36,32.3,-25.06,-26.67,-23.43,1179,181,1.3603740650539069e-179
+carnets_papier | new text,3982,rfsz6 stage 1 only,4,top5,73.58,49.55,-24.03,-25.49,-22.45,1052,95,9.24734023783949e-205
+carnets_papier | new text,3982,4l2qv annotations only,1,top1,74.49,73.61,-0.88,-1.98,0.28,286,251,0.1422480714663301
+carnets_papier | new text,3982,4l2qv annotations only,1,top5,88.65,88.85,0.2,-0.73,1.1,170,178,0.7075401313542924
+carnets_papier | new text,3982,4l2qv annotations only,2,top1,71.62,71.3,-0.33,-1.43,0.78,275,262,0.6046123371741172
+carnets_papier | new text,3982,4l2qv annotations only,2,top5,85.48,85.84,0.35,-0.55,1.23,168,182,0.48718504722974837
+carnets_papier | new text,3982,4l2qv annotations only,3,top1,65.14,65.07,-0.08,-1.23,1.03,279,276,0.9323547376944105
+carnets_papier | new text,3982,4l2qv annotations only,3,top5,80.64,82.02,1.38,0.38,2.41,188,243,0.00921417151167408
+carnets_papier | new text,3982,4l2qv annotations only,4,top1,57.36,57.38,0.03,-1.23,1.21,305,306,1.0
+carnets_papier | new text,3982,4l2qv annotations only,4,top5,73.58,77.9,4.32,3.11,5.5,206,378,1.0244705944881177e-12
+carnets_papier | new text,3982,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),1,top1,73.61,75.21,1.61,0.53,2.61,200,264,0.003403877642883742
+carnets_papier | new text,3982,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),1,top5,88.85,89.5,0.65,-0.18,1.51,129,155,0.13780907674155213
+carnets_papier | new text,3982,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),2,top1,71.3,72.7,1.41,0.33,2.44,200,256,0.009929464367315266
+carnets_papier | new text,3982,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),2,top5,85.84,86.39,0.55,-0.35,1.38,143,165,0.23141384779104876
+carnets_papier | new text,3982,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),3,top1,65.07,66.55,1.48,0.43,2.54,209,268,0.007849866347661941
+carnets_papier | new text,3982,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),3,top5,82.02,82.22,0.2,-0.7,1.08,156,164,0.6956308316759293
+carnets_papier | new text,3982,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),4,top1,57.38,58.54,1.16,0.05,2.31,239,285,0.049214176400992314
+carnets_papier | new text,3982,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),4,top5,77.9,75.24,-2.66,-3.67,-1.63,282,176,8.33624833727134e-07
+tickets_papier | text seen in training,125,rfsz6 fine-tuned,1,top1,98.4,98.4,0.0,0.0,0.0,0,0,1.0
+tickets_papier | text seen in training,125,rfsz6 fine-tuned,1,top5,100.0,99.2,-0.8,-2.4,0.0,1,0,1.0
+tickets_papier | text seen in training,125,rfsz6 fine-tuned,2,top1,98.4,98.4,0.0,0.0,0.0,0,0,1.0
+tickets_papier | text seen in training,125,rfsz6 fine-tuned,2,top5,99.2,99.2,0.0,0.0,0.0,0,0,1.0
+tickets_papier | text seen in training,125,rfsz6 fine-tuned,3,top1,94.4,94.4,0.0,-2.4,2.4,1,1,1.0
+tickets_papier | text seen in training,125,rfsz6 fine-tuned,3,top5,99.2,99.2,0.0,0.0,0.0,0,0,1.0
+tickets_papier | text seen in training,125,rfsz6 fine-tuned,4,top1,84.8,84.8,0.0,-2.4,2.4,1,1,1.0
+tickets_papier | text seen in training,125,rfsz6 fine-tuned,4,top5,96.0,97.6,1.6,0.0,4.0,0,2,0.5
+tickets_papier | text seen in training,125,rfsz6 stage 1 only,1,top1,98.4,66.4,-32.0,-40.0,-24.0,40,0,1.8189894035458565e-12
+tickets_papier | text seen in training,125,rfsz6 stage 1 only,1,top5,100.0,91.2,-8.8,-13.6,-4.0,11,0,0.0009765625
+tickets_papier | text seen in training,125,rfsz6 stage 1 only,2,top1,98.4,66.4,-32.0,-40.0,-23.2,40,0,1.8189894035458565e-12
+tickets_papier | text seen in training,125,rfsz6 stage 1 only,2,top5,99.2,90.4,-8.8,-13.62,-4.0,11,0,0.0009765625
+tickets_papier | text seen in training,125,rfsz6 stage 1 only,3,top1,94.4,53.6,-40.8,-50.4,-31.2,53,2,8.554268404736831e-14
+tickets_papier | text seen in training,125,rfsz6 stage 1 only,3,top5,99.2,85.6,-13.6,-20.0,-8.0,17,0,1.52587890625e-05
+tickets_papier | text seen in training,125,rfsz6 stage 1 only,4,top1,84.8,48.8,-36.0,-46.4,-25.6,53,8,2.98644165040024e-09
+tickets_papier | text seen in training,125,rfsz6 stage 1 only,4,top5,96.0,75.2,-20.8,-28.8,-14.38,26,0,2.9802322387695312e-08
+tickets_papier | text seen in training,125,4l2qv annotations only,1,top1,98.4,98.4,0.0,0.0,0.0,0,0,1.0
+tickets_papier | text seen in training,125,4l2qv annotations only,1,top5,100.0,100.0,0.0,0.0,0.0,0,0,1.0
+tickets_papier | text seen in training,125,4l2qv annotations only,2,top1,98.4,98.4,0.0,0.0,0.0,0,0,1.0
+tickets_papier | text seen in training,125,4l2qv annotations only,2,top5,99.2,99.2,0.0,0.0,0.0,0,0,1.0
+tickets_papier | text seen in training,125,4l2qv annotations only,3,top1,94.4,94.4,0.0,-2.4,2.4,1,1,1.0
+tickets_papier | text seen in training,125,4l2qv annotations only,3,top5,99.2,99.2,0.0,0.0,0.0,0,0,1.0
+tickets_papier | text seen in training,125,4l2qv annotations only,4,top1,84.8,83.2,-1.6,-4.8,1.6,3,1,0.625
+tickets_papier | text seen in training,125,4l2qv annotations only,4,top5,96.0,96.8,0.8,0.0,2.4,0,1,1.0
+tickets_papier | text seen in training,125,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),1,top1,98.4,98.4,0.0,0.0,0.0,0,0,1.0
+tickets_papier | text seen in training,125,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),1,top5,100.0,99.2,-0.8,-2.4,0.0,1,0,1.0
+tickets_papier | text seen in training,125,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),2,top1,98.4,98.4,0.0,0.0,0.0,0,0,1.0
+tickets_papier | text seen in training,125,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),2,top5,99.2,99.2,0.0,0.0,0.0,0,0,1.0
+tickets_papier | text seen in training,125,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),3,top1,94.4,94.4,0.0,0.0,0.0,0,0,1.0
+tickets_papier | text seen in training,125,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),3,top5,99.2,99.2,0.0,0.0,0.0,0,0,1.0
+tickets_papier | text seen in training,125,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),4,top1,83.2,84.8,1.6,0.0,4.0,0,2,0.5
+tickets_papier | text seen in training,125,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),4,top5,96.8,97.6,0.8,0.0,2.4,0,1,1.0
+tickets_papier | new text,1855,rfsz6 fine-tuned,1,top1,86.52,87.33,0.81,-0.49,1.99,60,75,0.22810347806601292
+tickets_papier | new text,1855,rfsz6 fine-tuned,1,top5,93.32,94.66,1.35,0.38,2.27,25,50,0.0052282430040142824
+tickets_papier | new text,1855,rfsz6 fine-tuned,2,top1,84.47,86.04,1.56,0.54,2.7,43,72,0.008735108684333213
+tickets_papier | new text,1855,rfsz6 fine-tuned,2,top5,91.37,93.58,2.21,1.24,3.18,23,64,1.2653512115621953e-05
+tickets_papier | new text,1855,rfsz6 fine-tuned,3,top1,75.63,77.84,2.21,0.86,3.61,63,104,0.0018783308897799434
+tickets_papier | new text,1855,rfsz6 fine-tuned,3,top5,88.03,90.57,2.53,1.4,3.67,33,80,1.1461598747783254e-05
+tickets_papier | new text,1855,rfsz6 fine-tuned,4,top1,68.63,71.75,3.13,1.67,4.58,66,124,3.10794277038868e-05
+tickets_papier | new text,1855,rfsz6 fine-tuned,4,top5,84.96,87.65,2.7,1.51,3.94,41,91,1.6057112657658862e-05
+tickets_papier | new text,1855,rfsz6 stage 1 only,1,top1,86.52,77.74,-8.79,-10.51,-7.06,221,58,1.4035354532493594e-23
+tickets_papier | new text,1855,rfsz6 stage 1 only,1,top5,93.32,90.03,-3.29,-4.31,-2.26,82,21,1.0696750216702926e-09
+tickets_papier | new text,1855,rfsz6 stage 1 only,2,top1,84.47,76.28,-8.19,-9.92,-6.58,208,56,9.748234681166402e-22
+tickets_papier | new text,1855,rfsz6 stage 1 only,2,top5,91.37,87.98,-3.4,-4.64,-2.21,100,37,6.990213957185692e-08
+tickets_papier | new text,1855,rfsz6 stage 1 only,3,top1,75.63,67.22,-8.41,-10.51,-6.36,279,123,4.865741986551128e-15
+tickets_papier | new text,1855,rfsz6 stage 1 only,3,top5,88.03,82.75,-5.28,-6.79,-3.72,160,62,3.6144189516317096e-11
+tickets_papier | new text,1855,rfsz6 stage 1 only,4,top1,68.63,60.49,-8.14,-10.35,-6.09,304,153,1.4316248480597522e-12
+tickets_papier | new text,1855,rfsz6 stage 1 only,4,top5,84.96,74.72,-10.24,-12.02,-8.52,241,51,1.0715515372714406e-30
+tickets_papier | new text,1855,4l2qv annotations only,1,top1,86.52,84.2,-2.32,-3.61,-0.97,105,62,0.0010910583212808687
+tickets_papier | new text,1855,4l2qv annotations only,1,top5,93.32,92.61,-0.7,-1.78,0.38,58,45,0.23690187778029265
+tickets_papier | new text,1855,4l2qv annotations only,2,top1,84.47,82.53,-1.94,-3.23,-0.65,94,58,0.0043709380726187535
+tickets_papier | new text,1855,4l2qv annotations only,2,top5,91.37,91.27,-0.11,-1.02,0.81,40,38,0.9099464518745243
+tickets_papier | new text,1855,4l2qv annotations only,3,top1,75.63,73.32,-2.32,-3.83,-0.7,130,87,0.004249037242308189
+tickets_papier | new text,1855,4l2qv annotations only,3,top5,88.03,85.93,-2.1,-3.18,-0.97,79,40,0.00044531067691715544
+tickets_papier | new text,1855,4l2qv annotations only,4,top1,68.63,66.79,-1.83,-3.45,-0.16,139,105,0.03441962468831581
+tickets_papier | new text,1855,4l2qv annotations only,4,top5,84.96,82.64,-2.32,-3.67,-1.02,104,61,0.0010159149977021747
+tickets_papier | new text,1855,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),1,top1,84.2,87.33,3.13,1.89,4.31,38,96,5.721978776596946e-07
+tickets_papier | new text,1855,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),1,top5,92.61,94.66,2.05,1.13,3.02,25,63,6.27038277122379e-05
+tickets_papier | new text,1855,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),2,top1,82.53,86.04,3.5,2.32,4.8,39,104,5.176751683141757e-08
+tickets_papier | new text,1855,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),2,top5,91.27,93.58,2.32,1.4,3.29,23,66,5.690249181613522e-06
+tickets_papier | new text,1855,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),3,top1,73.32,77.84,4.53,3.18,5.98,42,126,6.009507673225811e-11
+tickets_papier | new text,1855,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),3,top5,85.93,90.57,4.64,3.56,5.77,15,101,7.752808767891495e-17
+tickets_papier | new text,1855,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),4,top1,66.79,71.75,4.96,3.56,6.36,49,141,1.6198327042698265e-11
+tickets_papier | new text,1855,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),4,top5,82.64,87.65,5.01,3.72,6.25,28,121,5.593190123542068e-15
+tickets_appli | text seen in training,127,rfsz6 fine-tuned,1,top1,96.06,96.06,0.0,0.0,0.0,0,0,1.0
+tickets_appli | text seen in training,127,rfsz6 fine-tuned,1,top5,99.21,97.64,-1.57,-3.94,0.0,2,0,0.5
+tickets_appli | text seen in training,127,rfsz6 fine-tuned,2,top1,95.28,95.28,0.0,0.0,0.0,0,0,1.0
+tickets_appli | text seen in training,127,rfsz6 fine-tuned,2,top5,98.43,97.64,-0.79,-2.36,0.0,1,0,1.0
+tickets_appli | text seen in training,127,rfsz6 fine-tuned,3,top1,91.34,91.34,0.0,-2.36,2.36,1,1,1.0
+tickets_appli | text seen in training,127,rfsz6 fine-tuned,3,top5,97.64,97.64,0.0,-2.36,2.36,1,1,1.0
+tickets_appli | text seen in training,127,rfsz6 fine-tuned,4,top1,82.68,81.89,-0.79,-3.94,2.36,3,2,1.0
+tickets_appli | text seen in training,127,rfsz6 fine-tuned,4,top5,97.64,96.85,-0.79,-3.94,1.57,2,1,1.0
+tickets_appli | text seen in training,127,rfsz6 stage 1 only,1,top1,96.06,75.59,-20.47,-28.35,-13.39,27,1,2.1606683731079102e-07
+tickets_appli | text seen in training,127,rfsz6 stage 1 only,1,top5,99.21,92.91,-6.3,-10.24,-2.36,8,0,0.0078125
+tickets_appli | text seen in training,127,rfsz6 stage 1 only,2,top1,95.28,74.8,-20.47,-27.56,-13.39,27,1,2.1606683731079102e-07
+tickets_appli | text seen in training,127,rfsz6 stage 1 only,2,top5,98.43,91.34,-7.09,-12.6,-2.36,10,1,0.01171875
+tickets_appli | text seen in training,127,rfsz6 stage 1 only,3,top1,91.34,62.99,-28.35,-37.8,-18.9,41,5,4.405936238072172e-08
+tickets_appli | text seen in training,127,rfsz6 stage 1 only,3,top5,97.64,82.68,-14.96,-21.26,-8.66,20,1,2.09808349609375e-05
+tickets_appli | text seen in training,127,rfsz6 stage 1 only,4,top1,82.68,55.91,-26.77,-37.01,-15.73,46,12,8.219663963332513e-06
+tickets_appli | text seen in training,127,rfsz6 stage 1 only,4,top5,97.64,72.44,-25.2,-33.86,-17.32,33,1,4.0745362639427185e-09
+tickets_appli | text seen in training,127,4l2qv annotations only,1,top1,96.06,95.28,-0.79,-2.36,0.0,1,0,1.0
+tickets_appli | text seen in training,127,4l2qv annotations only,1,top5,99.21,97.64,-1.57,-3.94,0.0,2,0,0.5
+tickets_appli | text seen in training,127,4l2qv annotations only,2,top1,95.28,94.49,-0.79,-3.15,1.57,2,1,1.0
+tickets_appli | text seen in training,127,4l2qv annotations only,2,top5,98.43,96.85,-1.57,-3.94,0.0,2,0,0.5
+tickets_appli | text seen in training,127,4l2qv annotations only,3,top1,91.34,90.55,-0.79,-3.96,2.36,3,2,1.0
+tickets_appli | text seen in training,127,4l2qv annotations only,3,top5,97.64,96.85,-0.79,-2.36,0.0,1,0,1.0
+tickets_appli | text seen in training,127,4l2qv annotations only,4,top1,82.68,81.1,-1.57,-5.51,1.57,4,2,0.6875
+tickets_appli | text seen in training,127,4l2qv annotations only,4,top5,97.64,94.49,-3.15,-6.3,-0.79,4,0,0.125
+tickets_appli | text seen in training,127,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),1,top1,95.28,96.06,0.79,0.0,2.36,0,1,1.0
+tickets_appli | text seen in training,127,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),1,top5,97.64,97.64,0.0,0.0,0.0,0,0,1.0
+tickets_appli | text seen in training,127,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),2,top1,94.49,95.28,0.79,-1.57,3.94,1,2,1.0
+tickets_appli | text seen in training,127,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),2,top5,96.85,97.64,0.79,0.0,2.36,0,1,1.0
+tickets_appli | text seen in training,127,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),3,top1,90.55,91.34,0.79,-1.57,3.94,1,2,1.0
+tickets_appli | text seen in training,127,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),3,top5,96.85,97.64,0.79,0.0,2.36,0,1,1.0
+tickets_appli | text seen in training,127,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),4,top1,81.1,81.89,0.79,-1.57,3.94,1,2,1.0
+tickets_appli | text seen in training,127,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),4,top5,94.49,96.85,2.36,-0.79,5.51,1,4,0.375
+tickets_appli | new text,1857,rfsz6 fine-tuned,1,top1,85.41,85.14,-0.27,-1.35,0.86,64,59,0.7185088365549657
+tickets_appli | new text,1857,rfsz6 fine-tuned,1,top5,92.73,93.0,0.27,-0.75,1.24,41,46,0.6682849967188074
+tickets_appli | new text,1857,rfsz6 fine-tuned,2,top1,83.58,83.58,0.0,-1.08,1.18,52,52,1.0
+tickets_appli | new text,1857,rfsz6 fine-tuned,2,top5,90.58,90.58,0.0,-1.08,1.08,52,52,1.0
+tickets_appli | new text,1857,rfsz6 fine-tuned,3,top1,73.99,75.98,1.99,0.7,3.28,55,92,0.0028574202527916395
+tickets_appli | new text,1857,rfsz6 fine-tuned,3,top5,86.91,87.51,0.59,-0.43,1.62,42,53,0.3048851907022759
+tickets_appli | new text,1857,rfsz6 fine-tuned,4,top1,67.85,69.25,1.4,0.0,2.8,70,96,0.0520057549969648
+tickets_appli | new text,1857,rfsz6 fine-tuned,4,top5,82.98,84.33,1.35,0.22,2.48,46,71,0.02607556223566354
+tickets_appli | new text,1857,rfsz6 stage 1 only,1,top1,85.41,75.18,-10.23,-11.96,-8.45,257,67,2.2453591506690156e-27
+tickets_appli | new text,1857,rfsz6 stage 1 only,1,top5,92.73,90.04,-2.69,-3.88,-1.56,87,37,8.274158969176753e-06
+tickets_appli | new text,1857,rfsz6 stage 1 only,2,top1,83.58,73.02,-10.55,-12.49,-8.72,263,67,1.3745527767816813e-28
+tickets_appli | new text,1857,rfsz6 stage 1 only,2,top5,90.58,87.35,-3.23,-4.52,-1.99,102,42,6.132941163263982e-07
+tickets_appli | new text,1857,rfsz6 stage 1 only,3,top1,73.99,64.57,-9.42,-11.69,-7.16,316,141,1.6979917060684162e-16
+tickets_appli | new text,1857,rfsz6 stage 1 only,3,top5,86.91,80.13,-6.79,-8.4,-5.12,183,57,1.3532169849625472e-16
+tickets_appli | new text,1857,rfsz6 stage 1 only,4,top1,67.85,58.05,-9.8,-12.17,-7.48,333,151,8.300910090329596e-17
+tickets_appli | new text,1857,rfsz6 stage 1 only,4,top5,82.98,73.18,-9.8,-11.58,-8.02,243,61,7.14935206612747e-27
+tickets_appli | new text,1857,4l2qv annotations only,1,top1,85.41,82.18,-3.23,-4.58,-1.88,124,64,1.439958573890617e-05
+tickets_appli | new text,1857,4l2qv annotations only,1,top5,92.73,90.63,-2.1,-3.28,-0.92,86,47,0.0009131976345915793
+tickets_appli | new text,1857,4l2qv annotations only,2,top1,83.58,79.75,-3.82,-5.22,-2.42,129,58,2.224371043736545e-07
+tickets_appli | new text,1857,4l2qv annotations only,2,top5,90.58,88.53,-2.05,-3.28,-0.92,83,45,0.0009959968742712611
+tickets_appli | new text,1857,4l2qv annotations only,3,top1,73.99,70.27,-3.72,-5.33,-2.05,150,81,6.6132262279036995e-06
+tickets_appli | new text,1857,4l2qv annotations only,3,top5,86.91,83.95,-2.96,-4.2,-1.72,95,40,2.472265102979547e-06
+tickets_appli | new text,1857,4l2qv annotations only,4,top1,67.85,63.76,-4.09,-5.71,-2.53,158,82,1.0589918517415601e-06
+tickets_appli | new text,1857,4l2qv annotations only,4,top5,82.98,80.78,-2.21,-3.61,-0.75,111,70,0.0028441556290590042
+tickets_appli | new text,1857,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),1,top1,82.18,85.14,2.96,1.72,4.25,44,99,4.887162472052845e-06
+tickets_appli | new text,1857,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),1,top5,90.63,93.0,2.37,1.18,3.55,44,88,0.00016023534882354646
+tickets_appli | new text,1857,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),2,top1,79.75,83.58,3.82,2.53,5.22,49,120,4.6552260759356404e-08
+tickets_appli | new text,1857,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),2,top5,88.53,90.58,2.05,0.81,3.23,47,85,0.0011951063526718646
+tickets_appli | new text,1857,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),3,top1,70.27,75.98,5.71,4.2,7.22,56,162,3.896901632131524e-13
+tickets_appli | new text,1857,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),3,top5,83.95,87.51,3.55,2.37,4.74,33,99,7.497438355619614e-09
+tickets_appli | new text,1857,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),4,top1,63.76,69.25,5.49,3.98,7.05,57,159,2.4583436514974238e-12
+tickets_appli | new text,1857,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),4,top5,80.78,84.33,3.55,2.21,4.95,52,118,4.490499335443735e-07
+excluding 98/99,13961,rfsz6 fine-tuned,1,top1,89.41,89.91,0.49,0.11,0.88,323,392,0.010937753011977342
+excluding 98/99,13961,rfsz6 fine-tuned,1,top5,97.06,96.82,-0.24,-0.51,0.02,196,163,0.0911001984648841
+excluding 98/99,13961,rfsz6 fine-tuned,2,top1,88.07,88.63,0.56,0.16,0.94,320,398,0.004026924182965766
+excluding 98/99,13961,rfsz6 fine-tuned,2,top5,95.62,95.63,0.01,-0.27,0.27,187,188,1.0
+excluding 98/99,13961,rfsz6 fine-tuned,3,top1,82.31,83.48,1.17,0.76,1.62,360,524,3.8524193561743476e-08
+excluding 98/99,13961,rfsz6 fine-tuned,3,top5,93.07,93.34,0.27,-0.05,0.57,231,268,0.10695945901672943
+excluding 98/99,13961,rfsz6 fine-tuned,4,top1,74.59,75.35,0.77,0.32,1.2,415,522,0.000527733426956204
+excluding 98/99,13961,rfsz6 fine-tuned,4,top5,87.45,87.96,0.51,0.17,0.84,251,322,0.003416764762971313
+excluding 98/99,13961,rfsz6 stage 1 only,1,top1,89.41,66.72,-22.69,-23.52,-21.88,3638,470,0.0
+excluding 98/99,13961,rfsz6 stage 1 only,1,top5,97.06,88.22,-8.84,-9.37,-8.32,1369,135,2.524581686112602e-257
+excluding 98/99,13961,rfsz6 stage 1 only,2,top1,88.07,62.35,-25.72,-26.55,-24.9,4008,417,0.0
+excluding 98/99,13961,rfsz6 stage 1 only,2,top5,95.62,84.37,-11.25,-11.83,-10.66,1715,144,0.0
+excluding 98/99,13961,rfsz6 stage 1 only,3,top1,82.31,53.25,-29.06,-29.99,-28.21,4691,634,0.0
+excluding 98/99,13961,rfsz6 stage 1 only,3,top5,93.07,77.06,-16.02,-16.68,-15.36,2429,193,0.0
+excluding 98/99,13961,rfsz6 stage 1 only,4,top1,74.59,47.0,-27.59,-28.49,-26.67,4540,688,0.0
+excluding 98/99,13961,rfsz6 stage 1 only,4,top5,87.45,67.23,-20.22,-20.92,-19.5,3000,177,0.0
+excluding 98/99,13961,4l2qv annotations only,1,top1,89.41,88.5,-0.92,-1.39,-0.49,581,453,7.679616439793579e-05
+excluding 98/99,13961,4l2qv annotations only,1,top5,97.06,96.43,-0.63,-0.93,-0.34,269,181,3.898746426132356e-05
+excluding 98/99,13961,4l2qv annotations only,2,top1,88.07,87.0,-1.07,-1.55,-0.6,623,473,6.564426038817909e-06
+excluding 98/99,13961,4l2qv annotations only,2,top5,95.62,95.17,-0.46,-0.77,-0.13,287,223,0.0052254777059348575
+excluding 98/99,13961,4l2qv annotations only,3,top1,82.31,81.2,-1.1,-1.61,-0.61,696,542,1.338665974059353e-05
+excluding 98/99,13961,4l2qv annotations only,3,top5,93.07,92.62,-0.45,-0.82,-0.09,388,325,0.020173087754575155
+excluding 98/99,13961,4l2qv annotations only,4,top1,74.59,74.72,0.13,-0.42,0.66,761,779,0.6648832460474358
+excluding 98/99,13961,4l2qv annotations only,4,top5,87.45,89.9,2.45,1.96,2.97,465,807,6.626740647582689e-22
+excluding 98/99,13961,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),1,top1,88.5,89.91,1.41,1.0,1.85,366,563,1.0878472724808813e-10
+excluding 98/99,13961,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),1,top5,96.43,96.82,0.39,0.1,0.69,181,236,0.008107094644695209
+excluding 98/99,13961,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),2,top1,87.0,88.63,1.63,1.19,2.06,379,607,3.8399193841252276e-13
+excluding 98/99,13961,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),2,top5,95.17,95.63,0.47,0.16,0.78,222,287,0.0045107686938830795
+excluding 98/99,13961,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),3,top1,81.2,83.48,2.28,1.8,2.75,399,717,1.246014920491027e-21
+excluding 98/99,13961,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),3,top5,92.62,93.34,0.72,0.38,1.06,253,353,5.57594857849749e-05
+excluding 98/99,13961,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),4,top1,74.72,75.35,0.64,0.11,1.16,655,744,0.018603822673199398
+excluding 98/99,13961,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),4,top5,89.9,87.96,-1.94,-2.44,-1.47,716,445,1.7216920932991975e-15
+98/99 only,734,rfsz6 fine-tuned,1,top1,30.65,34.74,4.09,0.41,7.77,77,107,0.03224242343593876
+98/99 only,734,rfsz6 fine-tuned,1,top5,46.46,60.63,14.17,10.63,17.85,45,149,3.302822506637663e-14
+98/99 only,734,rfsz6 fine-tuned,2,top1,24.39,31.2,6.81,3.68,9.95,42,92,1.8706159525938798e-05
+98/99 only,734,rfsz6 fine-tuned,2,top5,38.56,50.27,11.72,8.31,15.4,57,143,1.0299193834837518e-09
+98/99 only,734,rfsz6 fine-tuned,3,top1,17.85,26.7,8.86,5.86,11.99,37,102,3.22000274970309e-08
+98/99 only,734,rfsz6 fine-tuned,3,top5,28.61,43.87,15.26,11.72,18.8,41,153,2.1414541242474223e-16
+98/99 only,734,rfsz6 fine-tuned,4,top1,17.71,25.61,7.9,4.77,10.9,37,95,4.6385411141544356e-07
+98/99 only,734,rfsz6 fine-tuned,4,top5,28.47,42.37,13.9,10.35,17.3,42,144,2.808977332801105e-14
+98/99 only,734,rfsz6 stage 1 only,1,top1,30.65,15.12,-15.53,-18.94,-12.13,150,36,9.628713725647094e-18
+98/99 only,734,rfsz6 stage 1 only,1,top5,46.46,32.43,-14.03,-17.17,-11.04,128,25,7.268499971220178e-18
+98/99 only,734,rfsz6 stage 1 only,2,top1,24.39,13.49,-10.9,-14.17,-7.63,114,34,2.691955894219441e-11
+98/99 only,734,rfsz6 stage 1 only,2,top5,38.56,29.97,-8.58,-11.99,-5.31,111,48,6.3516578122982e-07
+98/99 only,734,rfsz6 stage 1 only,3,top1,17.85,9.4,-8.45,-11.44,-5.45,94,32,2.910193273546554e-08
+98/99 only,734,rfsz6 stage 1 only,3,top5,28.61,25.48,-3.13,-6.54,0.41,95,72,0.08837580839996555
+98/99 only,734,rfsz6 stage 1 only,4,top1,17.71,8.45,-9.26,-11.99,-6.54,93,25,2.1273555960954932e-10
+98/99 only,734,rfsz6 stage 1 only,4,top5,28.47,24.39,-4.09,-7.63,-0.54,95,65,0.02157382961903791
+98/99 only,734,4l2qv annotations only,1,top1,30.65,35.42,4.77,1.23,8.31,74,109,0.01175182803783284
+98/99 only,734,4l2qv annotations only,1,top5,46.46,56.95,10.49,6.54,14.58,80,157,6.394972108867368e-07
+98/99 only,734,4l2qv annotations only,2,top1,24.39,33.11,8.72,5.72,11.85,37,101,4.750264945681323e-08
+98/99 only,734,4l2qv annotations only,2,top5,38.56,51.5,12.94,9.54,16.62,43,138,8.172670771300878e-13
+98/99 only,734,4l2qv annotations only,3,top1,17.85,26.29,8.45,5.59,11.58,40,102,1.9896001471994389e-07
+98/99 only,734,4l2qv annotations only,3,top5,28.61,41.96,13.35,9.95,16.62,34,132,7.801514866463938e-15
+98/99 only,734,4l2qv annotations only,4,top1,17.71,25.48,7.77,4.77,10.76,40,97,1.220256520581287e-06
+98/99 only,734,4l2qv annotations only,4,top5,28.47,40.87,12.4,8.99,15.8,34,125,1.9775810693297437e-13
+98/99 only,734,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),1,top1,35.42,34.74,-0.68,-3.27,2.04,51,46,0.6848587772144032
+98/99 only,734,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),1,top5,56.95,60.63,3.68,0.41,6.95,67,94,0.04012054372247364
+98/99 only,734,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),2,top1,33.11,31.2,-1.91,-4.5,0.68,55,41,0.18428587288036472
+98/99 only,734,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),2,top5,51.5,50.27,-1.23,-4.36,1.91,70,61,0.48472021812853056
+98/99 only,734,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),3,top1,26.29,26.7,0.41,-1.5,2.18,23,26,0.7754496546815659
+98/99 only,734,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),3,top5,41.96,43.87,1.91,-0.54,4.36,40,54,0.17966501480803043
+98/99 only,734,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),4,top1,25.48,25.61,0.14,-1.77,2.04,24,25,1.0
+98/99 only,734,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),4,top5,40.87,42.37,1.5,-1.09,3.95,39,50,0.2890960806960603
+carnets_papier | excluding 98/99,10194,rfsz6 fine-tuned,1,top1,89.2,89.6,0.4,-0.06,0.83,245,286,0.08249292866852548
+carnets_papier | excluding 98/99,10194,rfsz6 fine-tuned,1,top5,97.37,97.0,-0.37,-0.68,-0.07,146,108,0.020074450205840633
+carnets_papier | excluding 98/99,10194,rfsz6 fine-tuned,2,top1,87.8,88.29,0.49,0.04,0.95,242,292,0.03387157166523314
+carnets_papier | excluding 98/99,10194,rfsz6 fine-tuned,2,top5,95.81,95.6,-0.22,-0.53,0.09,141,119,0.19269290366286926
+carnets_papier | excluding 98/99,10194,rfsz6 fine-tuned,3,top1,83.25,84.1,0.85,0.4,1.3,246,333,0.00034340623204424497
+carnets_papier | excluding 98/99,10194,rfsz6 fine-tuned,3,top5,93.29,93.36,0.07,-0.28,0.41,164,171,0.7431068317811952
+carnets_papier | excluding 98/99,10194,rfsz6 fine-tuned,4,top1,75.29,75.53,0.25,-0.22,0.71,281,306,0.321889211384643
+carnets_papier | excluding 98/99,10194,rfsz6 fine-tuned,4,top5,86.9,87.13,0.23,-0.15,0.64,171,194,0.24947826774522175
+carnets_papier | excluding 98/99,10194,rfsz6 stage 1 only,1,top1,89.2,61.85,-27.35,-28.3,-26.38,3139,351,0.0
+carnets_papier | excluding 98/99,10194,rfsz6 stage 1 only,1,top5,97.37,86.3,-11.08,-11.69,-10.38,1214,85,1.910704768018424e-256
+carnets_papier | excluding 98/99,10194,rfsz6 stage 1 only,2,top1,87.8,56.53,-31.26,-32.23,-30.32,3487,300,0.0
+carnets_papier | excluding 98/99,10194,rfsz6 stage 1 only,2,top5,95.81,81.85,-13.96,-14.68,-13.24,1516,93,0.0
+carnets_papier | excluding 98/99,10194,rfsz6 stage 1 only,3,top1,83.25,47.56,-35.69,-36.74,-34.57,4008,370,0.0
+carnets_papier | excluding 98/99,10194,rfsz6 stage 1 only,3,top5,93.29,74.15,-19.14,-19.95,-18.34,2060,109,0.0
+carnets_papier | excluding 98/99,10194,rfsz6 stage 1 only,4,top1,75.29,41.49,-33.8,-34.88,-32.75,3810,364,0.0
+carnets_papier | excluding 98/99,10194,rfsz6 stage 1 only,4,top5,86.9,63.61,-23.3,-24.21,-22.46,2468,93,0.0
+carnets_papier | excluding 98/99,10194,4l2qv annotations only,1,top1,89.2,88.92,-0.28,-0.81,0.24,394,365,0.30946793590650756
+carnets_papier | excluding 98/99,10194,4l2qv annotations only,1,top5,97.37,97.01,-0.36,-0.69,-0.03,175,138,0.041695332095613186
+carnets_papier | excluding 98/99,10194,4l2qv annotations only,2,top1,87.8,87.57,-0.23,-0.77,0.29,413,390,0.4375535799041089
+carnets_papier | excluding 98/99,10194,4l2qv annotations only,2,top5,95.81,95.81,0.0,-0.34,0.37,182,182,1.0
+carnets_papier | excluding 98/99,10194,4l2qv annotations only,3,top1,83.25,82.86,-0.38,-0.95,0.16,418,379,0.1782563416246746
+carnets_papier | excluding 98/99,10194,4l2qv annotations only,3,top5,93.29,93.61,0.32,-0.09,0.74,222,255,0.14279198579890337
+carnets_papier | excluding 98/99,10194,4l2qv annotations only,4,top1,75.29,76.6,1.31,0.67,1.94,463,597,4.311323289855003e-05
+carnets_papier | excluding 98/99,10194,4l2qv annotations only,4,top5,86.9,91.11,4.21,3.63,4.79,255,684,6.143781029064985e-46
+carnets_papier | excluding 98/99,10194,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),1,top1,88.92,89.6,0.69,0.19,1.19,307,377,0.008285623945479452
+carnets_papier | excluding 98/99,10194,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),1,top5,97.01,97.0,-0.01,-0.34,0.33,143,142,1.0
+carnets_papier | excluding 98/99,10194,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),2,top1,87.57,88.29,0.72,0.19,1.23,317,390,0.006731016882804186
+carnets_papier | excluding 98/99,10194,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),2,top5,95.81,95.6,-0.22,-0.6,0.13,189,167,0.26568303692447304
+carnets_papier | excluding 98/99,10194,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),3,top1,82.86,84.1,1.24,0.74,1.78,301,427,3.420963166566903e-06
+carnets_papier | excluding 98/99,10194,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),3,top5,93.61,93.36,-0.26,-0.64,0.14,208,182,0.20548208364167006
+carnets_papier | excluding 98/99,10194,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),4,top1,76.6,75.53,-1.07,-1.64,-0.45,549,440,0.0005874642132277546
+carnets_papier | excluding 98/99,10194,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),4,top5,91.11,87.13,-3.98,-4.53,-3.39,637,231,1.2344262611499083e-44
+tickets_papier | excluding 98/99,1890,rfsz6 fine-tuned,1,top1,90.05,91.27,1.22,0.21,2.22,34,57,0.020584209038374265
+tickets_papier | excluding 98/99,1890,rfsz6 fine-tuned,1,top5,95.98,96.4,0.42,-0.32,1.11,19,27,0.3019956131896606
+tickets_papier | excluding 98/99,1890,rfsz6 fine-tuned,2,top1,89.1,90.05,0.95,-0.05,1.96,37,55,0.07576023576406506
+tickets_papier | excluding 98/99,1890,rfsz6 fine-tuned,2,top5,95.19,96.03,0.85,0.11,1.53,16,32,0.0293049467205293
+tickets_papier | excluding 98/99,1890,rfsz6 fine-tuned,3,top1,80.26,82.28,2.01,0.69,3.28,60,98,0.003119623289981868
+tickets_papier | excluding 98/99,1890,rfsz6 fine-tuned,3,top5,92.59,93.86,1.27,0.37,2.17,28,52,0.00968284992305757
+tickets_papier | excluding 98/99,1890,rfsz6 fine-tuned,4,top1,72.75,75.66,2.91,1.53,4.34,63,118,5.2850137043046376e-05
+tickets_papier | excluding 98/99,1890,rfsz6 fine-tuned,4,top5,89.37,90.9,1.53,0.53,2.59,36,65,0.005077381119448142
+tickets_papier | excluding 98/99,1890,rfsz6 stage 1 only,1,top1,90.05,80.32,-9.74,-11.53,-8.1,235,51,2.1583343005711985e-29
+tickets_papier | excluding 98/99,1890,rfsz6 stage 1 only,1,top5,95.98,92.7,-3.28,-4.29,-2.33,79,17,9.941513465364027e-11
+tickets_papier | excluding 98/99,1890,rfsz6 stage 1 only,2,top1,89.1,78.89,-10.21,-11.9,-8.57,242,49,7.646478806770776e-32
+tickets_papier | excluding 98/99,1890,rfsz6 stage 1 only,2,top5,95.19,90.79,-4.39,-5.5,-3.28,100,17,1.7262632576999543e-15
+tickets_papier | excluding 98/99,1890,rfsz6 stage 1 only,3,top1,80.26,69.15,-11.11,-13.18,-9.05,328,118,6.0125237997340276e-24
+tickets_papier | excluding 98/99,1890,rfsz6 stage 1 only,3,top5,92.59,85.45,-7.14,-8.62,-5.77,170,35,1.7688049825071778e-22
+tickets_papier | excluding 98/99,1890,rfsz6 stage 1 only,4,top1,72.75,62.59,-10.16,-12.49,-7.88,353,161,1.5235830819948254e-17
+tickets_papier | excluding 98/99,1890,rfsz6 stage 1 only,4,top5,89.37,77.25,-12.12,-13.76,-10.48,260,31,3.1770007331375906e-46
+tickets_papier | excluding 98/99,1890,4l2qv annotations only,1,top1,90.05,87.88,-2.17,-3.33,-1.06,82,41,0.00027561763353404036
+tickets_papier | excluding 98/99,1890,4l2qv annotations only,1,top5,95.98,95.13,-0.85,-1.59,-0.11,35,19,0.0402235640957167
+tickets_papier | excluding 98/99,1890,4l2qv annotations only,2,top1,89.1,86.51,-2.59,-3.81,-1.43,90,41,2.2318496164502346e-05
+tickets_papier | excluding 98/99,1890,4l2qv annotations only,2,top5,95.19,94.18,-1.01,-1.8,-0.26,37,18,0.014453833533827731
+tickets_papier | excluding 98/99,1890,4l2qv annotations only,3,top1,80.26,77.83,-2.43,-3.92,-1.01,127,81,0.0017403727905944213
+tickets_papier | excluding 98/99,1890,4l2qv annotations only,3,top5,92.59,90.37,-2.22,-3.33,-1.16,74,32,5.541979465701251e-05
+tickets_papier | excluding 98/99,1890,4l2qv annotations only,4,top1,72.75,70.69,-2.06,-3.7,-0.42,138,99,0.013405008382559848
+tickets_papier | excluding 98/99,1890,4l2qv annotations only,4,top5,89.37,87.04,-2.33,-3.6,-1.06,99,55,0.0004897931192734406
+tickets_papier | excluding 98/99,1890,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),1,top1,87.88,91.27,3.39,2.33,4.44,23,87,6.041171809636997e-10
+tickets_papier | excluding 98/99,1890,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),1,top5,95.13,96.4,1.27,0.58,1.96,11,35,0.0005355850721002753
+tickets_papier | excluding 98/99,1890,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),2,top1,86.51,90.05,3.54,2.38,4.71,29,96,1.429276407178026e-09
+tickets_papier | excluding 98/99,1890,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),2,top5,94.18,96.03,1.85,1.06,2.65,10,45,2.0572645155203517e-06
+tickets_papier | excluding 98/99,1890,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),3,top1,77.83,82.28,4.44,3.07,5.77,42,126,6.009507673225811e-11
+tickets_papier | excluding 98/99,1890,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),3,top5,90.37,93.86,3.49,2.54,4.55,14,80,2.120124047968334e-12
+tickets_papier | excluding 98/99,1890,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),4,top1,70.69,75.66,4.97,3.49,6.46,49,143,7.262557535882858e-12
+tickets_papier | excluding 98/99,1890,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),4,top5,87.04,90.9,3.86,2.7,4.97,28,101,6.968772941670867e-11
+tickets_appli | excluding 98/99,1877,rfsz6 fine-tuned,1,top1,89.93,90.2,0.27,-0.75,1.23,44,49,0.6785320136533252
+tickets_appli | excluding 98/99,1877,rfsz6 fine-tuned,1,top5,96.43,96.27,-0.16,-0.96,0.59,31,28,0.7948436539828609
+tickets_appli | excluding 98/99,1877,rfsz6 fine-tuned,2,top1,88.55,89.08,0.53,-0.43,1.55,41,51,0.3481412903192065
+tickets_appli | excluding 98/99,1877,rfsz6 fine-tuned,2,top5,95.05,95.42,0.37,-0.48,1.23,30,37,0.4638176178968696
+tickets_appli | excluding 98/99,1877,rfsz6 fine-tuned,3,top1,79.28,81.35,2.08,0.85,3.3,54,93,0.0016313112527077745
+tickets_appli | excluding 98/99,1877,rfsz6 fine-tuned,3,top5,92.38,92.7,0.32,-0.64,1.23,39,45,0.5856467947212246
+tickets_appli | excluding 98/99,1877,rfsz6 fine-tuned,4,top1,72.62,74.05,1.44,0.11,2.82,71,98,0.045179604429172376
+tickets_appli | excluding 98/99,1877,rfsz6 fine-tuned,4,top5,88.49,89.5,1.01,-0.11,2.13,44,63,0.08135304820596587
+tickets_appli | excluding 98/99,1877,rfsz6 stage 1 only,1,top1,89.93,79.49,-10.44,-12.2,-8.58,264,68,2.111450675178321e-28
+tickets_appli | excluding 98/99,1877,rfsz6 stage 1 only,1,top5,96.43,94.14,-2.29,-3.3,-1.17,76,33,4.6555788945522814e-05
+tickets_appli | excluding 98/99,1877,rfsz6 stage 1 only,2,top1,88.55,77.3,-11.24,-13.16,-9.32,279,68,1.7999239641296204e-31
+tickets_appli | excluding 98/99,1877,rfsz6 stage 1 only,2,top5,95.05,91.58,-3.46,-4.69,-2.29,99,34,1.487726043043053e-08
+tickets_appli | excluding 98/99,1877,rfsz6 stage 1 only,3,top1,79.28,68.14,-11.13,-13.37,-8.84,355,146,3.959549148280376e-21
+tickets_appli | excluding 98/99,1877,rfsz6 stage 1 only,3,top5,92.38,84.39,-7.99,-9.54,-6.39,199,49,1.2647376124878695e-22
+tickets_appli | excluding 98/99,1877,rfsz6 stage 1 only,4,top1,72.62,61.21,-11.4,-13.8,-9.16,377,163,1.5336094624044463e-20
+tickets_appli | excluding 98/99,1877,rfsz6 stage 1 only,4,top5,88.49,76.82,-11.67,-13.48,-9.86,272,53,1.2850451659510017e-36
+tickets_appli | excluding 98/99,1877,4l2qv annotations only,1,top1,89.93,86.84,-3.09,-4.32,-1.86,105,47,2.899910058603122e-06
+tickets_appli | excluding 98/99,1877,4l2qv annotations only,1,top5,96.43,94.57,-1.86,-2.77,-0.91,59,24,0.00015455941078329165
+tickets_appli | excluding 98/99,1877,4l2qv annotations only,2,top1,88.55,84.39,-4.16,-5.38,-2.88,120,42,6.797926739267764e-10
+tickets_appli | excluding 98/99,1877,4l2qv annotations only,2,top5,95.05,92.65,-2.4,-3.41,-1.39,68,23,2.5221536534654527e-06
+tickets_appli | excluding 98/99,1877,4l2qv annotations only,3,top1,79.28,75.6,-3.68,-5.22,-2.08,151,82,7.263392663122648e-06
+tickets_appli | excluding 98/99,1877,4l2qv annotations only,3,top5,92.38,89.5,-2.88,-4.05,-1.7,92,38,2.430816850424536e-06
+tickets_appli | excluding 98/99,1877,4l2qv annotations only,4,top1,72.62,68.51,-4.1,-5.7,-2.45,160,83,8.883304565016964e-07
+tickets_appli | excluding 98/99,1877,4l2qv annotations only,4,top5,88.49,86.2,-2.29,-3.68,-0.91,111,68,0.001619181270785971
+tickets_appli | excluding 98/99,1877,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),1,top1,86.84,90.2,3.36,2.24,4.53,36,99,5.4994793209333215e-08
+tickets_appli | excluding 98/99,1877,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),1,top5,94.57,96.27,1.7,0.75,2.66,27,59,0.0007317100653124087
+tickets_appli | excluding 98/99,1877,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),2,top1,84.39,89.08,4.69,3.41,5.97,33,121,5.251232042625476e-13
+tickets_appli | excluding 98/99,1877,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),2,top5,92.65,95.42,2.77,1.76,3.78,23,75,1.3172242120654852e-07
+tickets_appli | excluding 98/99,1877,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),3,top1,75.6,81.35,5.75,4.26,7.25,56,164,1.7452263811556296e-13
+tickets_appli | excluding 98/99,1877,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),3,top5,89.5,92.7,3.2,2.13,4.32,31,91,4.987984264648724e-08
+tickets_appli | excluding 98/99,1877,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),4,top1,68.51,74.05,5.54,4.05,7.09,57,161,1.1212805276396062e-12
+tickets_appli | excluding 98/99,1877,rfsz6 fine-tuned vs 4l2qv (effect of pre-training),4,top5,86.2,89.5,3.3,1.92,4.64,51,113,1.4455361416996012e-06

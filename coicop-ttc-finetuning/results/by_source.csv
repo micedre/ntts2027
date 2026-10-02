@@ -1,0 +1,10 @@
+model,source,source_name,N,L1_top1,L1_top5,L2_top1,L2_top5,L3_top1,L3_top5,L4_top1,L4_top5
+stage1_only,tickets_appli,Receipts scanned in the app,1984,75.2,90.22,73.14,87.6,64.47,80.29,57.91,73.14
+stage1_only,tickets_papier,Paper receipts,1980,77.02,90.1,75.66,88.13,66.36,82.93,59.75,74.75
+stage1_only,carnets_papier,Paper diaries,10731,59.72,83.68,54.56,79.36,45.76,71.85,39.99,61.82
+annotations_only,tickets_appli,Receipts scanned in the app,1984,83.01,91.08,80.7,89.06,71.57,84.78,64.87,81.65
+annotations_only,tickets_papier,Paper receipts,1980,85.1,93.08,83.54,91.77,74.65,86.77,67.83,83.54
+annotations_only,carnets_papier,Paper diaries,10731,86.51,95.33,85.12,93.93,80.44,91.69,74.44,89.25
+stage1_stage2,tickets_appli,Receipts scanned in the app,1984,85.84,93.3,84.32,91.03,76.97,88.16,70.06,85.13
+stage1_stage2,tickets_papier,Paper receipts,1980,88.03,94.95,86.82,93.94,78.89,91.11,72.58,88.28
+stage1_stage2,carnets_papier,Paper diaries,10731,87.23,95.34,85.84,93.69,81.65,91.32,73.44,85.3

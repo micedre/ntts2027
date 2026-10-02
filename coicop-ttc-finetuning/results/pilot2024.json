@@ -1,0 +1,53 @@
+{
+  "overall": {
+    "stage1_only": {
+      "N": 14695,
+      "L1_top1": 67.94,
+      "L1_top5": 85.56,
+      "L2_top1": 64.01,
+      "L2_top5": 81.16,
+      "L3_top1": 54.58,
+      "L3_top5": 74.06,
+      "L4_top1": 48.31,
+      "L4_top5": 64.98
+    },
+    "pilot_only": {
+      "N": 14695,
+      "L1_top1": 82.75,
+      "L1_top5": 92.41,
+      "L2_top1": 81.07,
+      "L2_top5": 89.73,
+      "L3_top1": 73.39,
+      "L3_top5": 85.14,
+      "L4_top1": 67.84,
+      "L4_top5": 81.14
+    },
+    "stage1_stage2": {
+      "N": 14695,
+      "L1_top1": 84.03,
+      "L1_top5": 94.58,
+      "L2_top1": 82.19,
+      "L2_top5": 92.52,
+      "L3_top1": 76.6,
+      "L3_top5": 89.23,
+      "L4_top1": 69.72,
+      "L4_top5": 83.35
+    }
+  },
+  "pilot_rows": 12767,
+  "pilot_rows_in_label_space": 11710,
+  "pilot_source_counts": {
+    "receipts_from_app": 6947,
+    "manual_from_book": 5410,
+    "manual_from_app": 410
+  },
+  "pilot_distribution": {
+    "rows": 12767,
+    "n_codes": 310,
+    "median_per_code": 11.0,
+    "top10_share": 0.3371,
+    "food_share": 0.5262,
+    "codes_lt_100": 277
+  },
+  "test_text_seen_in_pilot_share": 0.3678
+}
